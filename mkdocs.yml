@@ -1,8 +1,8 @@
 ---
-site_name: LABXXX-1234 My famous WebexOne Lab # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
-site_description: LABXXX-1234 My famous WebexOne Lab # must be same as "site_name"
-site_author: John Doe
-copyright: Copyright &copy; 2025 Cisco
+site_name: "LAB-21109 - Hands-on AI in Action with Webex Contact Center: Building Connected Intelligence from Self-Service to Agent Assistance" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
+site_description: "LAB-21109 - Hands-on AI in Action with Webex Contact Center: Building Connected Intelligence from Self-Service to Agent Assistance" # must be same as "site_name"
+site_author: Mykola Danylchuk
+copyright: Copyright &copy; 2026 Cisco
 theme:
   name: material
   features:
@@ -35,7 +35,7 @@ theme:
   favicon: template_assets/webex75.png
 extra:
   generator: false
-  repo: "https://github.com/kevsimps/wx1_26.git"
+  repo: "https://github.com/WebexCC-SA/LAB-21109.git"
   site_event: test
 extra_css:
   - stylesheets/extra.css
@@ -86,11 +86,87 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - Welcome: welcome.md
+  # - Welcome: welcome.md
   - Lab:
       - Overview: overview.md
       - Lab 1 - Getting Started: lab1_getting_started.md
       - Conclusion: conclusion.md
+  - Getting Started:
+      - Lab Overview: ./main/overview.md
+      - Access you Lab Environment: ./main/PreRequisites.md
+      - Overview: overview.md
+      - Lab 1 - Getting Started: lab1_getting_started.md
+      - Conclusion: conclusion.md
+  - Topic Analytics:
+      - Lab Guide:
+          - "Lab overview": ./main/AI_Lab_Topic_Overview.md
+          - "Mission 1. Explore Real-Time Topic Analytics": ./main/AI_Lab_Real_Time_Topic_Mission1.md
+      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
+  #- Real Time Topic:
+  #    - Real Time Topic Review:
+  #        - Lab Guide:
+  #              - "Lab overview": ./main/AI_Lab_Real_Time_Topic_Overview.md
+  #              - "Mission 1": ./main/AI_Lab_Real_Time_Topic_Mission1.md
+  #        - Conclusion: ./main/AI_Lab_Real_Time_Topic_Conclusion.md
+  - Autonomous AI:
+      - Autonomous AI Agent:
+          - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_Overview.md
+              - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
+              - "Mission 2: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
+              - "Mission 3: Configure Fulfillment Using Voice Flow": ./main/AI_Lab_Aut_Voice_Flow_Fulfillment.md
+              - 'Mission 4: (<span style="color: red;"><strong>Read Only</strong></span>) Configure Fulfillment Using Webex Connect Flow': ./main/AI_Lab_Aut_Mission2.md
+              - "Mission 5: Configure Transfer Action for a Specific Queue": ./main/AI_Lab_Aut_Mission_Transfer.md             
+              - "Mission 6: Configure Transfer Action for Webex AI Agent": ./main/AI_Lab_Aut_Mission_Transfer2.md
+              - "Mission 7: Configure Action with MCP": ./main/AI_Lab_Aut_Mission_MCP.md
+              - 'Mission 8: (<span style="color: red;"><strong>Optional</strong></span>) Customize AI Agent Language': ./main/AI_Lab_Aut_Mission.Language.md
+          - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
+  - AI Assistant:
+      - AI Assistant Featurs:
+          - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_Features_Overview.md
+              - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
+              - 'Mission 2: (<span style="color: red;"><strong>Optional</strong></span>) Real Time Transcript': ./main/AI_Lab_Assist_Mission3.md
+              - "Mission 3: Wrap Up Summary": ./main/AI_Lab_Assist_Mission4.md
+              - 'Mission 4: (<span style="color: red;"><strong>Read Only</strong></span>) Call Drop Summary': ./main/AI_Lab_Assist_Mission_2.md
+              - 'Mission 5: (<span style="color: red;"><strong>Read Only</strong></span>) AutoCSAT': ./main/AI_Lab_Assist_AutoCSAT.md
+          - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
+      - 'Real-Time Assist (Suggested Responses) (<span style="color: red;"><strong>Optional</strong></span>)':
+          - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
+              - "Mission 1: Configure Real-Time Assist with Knowledge Base": ./main/AI_Lab_Suggested_Responseds_Mission1.md
+              - 'Mission 2: (<span style="color: red;"><strong>Optional</strong></span>) Configure Fulfillment': ./main/AI_Lab_Suggested_Responseds_Mission2.md
+          - Conclusion: ./main/AI_Lab_Suggested_Responseds_Conclusion.md
+  - AI QM:
+      - Quality Managment:
+          - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_QM_Overview.md
+              - "Mission 1": ./main/AI_Lab_QM_Mission1.md
+              - "Mission 2": ./main/AI_Lab_QM_Mission2.md
+          - Conclusion: ./main/AI_Lab_SupervisorAI_Conclusion.md
+  - BONUS Labs:
+      - Scripted AI Agent:
+          - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
+              - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
+              - "Mission 2 : Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission3.md
+              - "Mission 3 : Configure flow to track an order": ./main/AI_Lab_Scripted_Mission4.md
+              - "Mission 4 : Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
+              - "Mission 5 : Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
+          - Conclusion: ./main/AI_Lab_Scripted_Conclusion.md
+      - Integration with Digital Channel:
+          - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_Digital_Ch_Overview.md
+              - "Mission 1: Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
+              - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
+              - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
+          - Conclusion: ./main/AI_Lab_Digital_Overview.md
+      - IVR Campaign with AI Agent:
+          - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
+              - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
+              - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
+          - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
   - Topologies: topologies.md
   - How to use this guide:
       - Setting up and using the tool:
