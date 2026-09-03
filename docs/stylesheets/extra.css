@@ -27,6 +27,41 @@
     --md-typeset-a-color: #3a7fff;
     --md-accent-fg-color: #00bdeb;
 }
+
+.md-tabs__link {
+    opacity: 0.58;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link:focus {
+    opacity: 1;
+}
+
+.md-tabs__item--active .md-tabs__link,
+.md-tabs__link--active {
+    opacity: 1;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+.md-tabs__item--active .md-tabs__link::after,
+.md-tabs__link--active::after {
+    content: "";
+    position: absolute;
+    left: -0.65rem;
+    right: -0.65rem;
+    top: 50%;
+    height: 2.05em;
+    transform: translateY(-50%);
+    border: 2px solid var(--md-accent-fg-color);
+    border-radius: 6px;
+    background-color: rgba(0, 189, 235, 0.22);
+    box-shadow: 0 0 8px rgba(0, 189, 235, 0.45);
+    pointer-events: none;
+    z-index: -1;
+}
 copy::after, .copy::after {
   content: "\f0c5"; /* Font Awesome code for the copy icon */
   font-family: "Font Awesome 5 Free"; /* The font-family may vary, ensure it matches the imported version */

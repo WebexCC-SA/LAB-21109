@@ -89,7 +89,7 @@ nav:
   # - Welcome: welcome.md
   - Getting Started:
       - Lab Overview: ./main/overview.md
-      - Access you Lab Environment: ./main/PreRequisites.md
+      - Lab Environment: ./main/PreRequisites.md
   - Topic Analytics:
       - Lab Guide:
           - "Lab overview": ./main/AI_Lab_Topic_Overview.md
