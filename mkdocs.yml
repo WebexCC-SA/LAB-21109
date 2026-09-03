@@ -87,16 +87,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   # - Welcome: welcome.md
-  - Lab:
-      - Overview: overview.md
-      - Lab 1 - Getting Started: lab1_getting_started.md
-      - Conclusion: conclusion.md
   - Getting Started:
       - Lab Overview: ./main/overview.md
       - Access you Lab Environment: ./main/PreRequisites.md
-      - Overview: overview.md
-      - Lab 1 - Getting Started: lab1_getting_started.md
-      - Conclusion: conclusion.md
   - Topic Analytics:
       - Lab Guide:
           - "Lab overview": ./main/AI_Lab_Topic_Overview.md
@@ -167,16 +160,3 @@ nav:
               - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
               - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
           - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
-  - Topologies: topologies.md
-  - How to use this guide:
-      - Setting up and using the tool:
-        - Initial Setup: howToUse/initialSetup.md
-        - Using the tool after the initial setup: howToUse/postInitial.md
-        - Publishing your changes: howToUse/syncChanges.md
-      - Useful Tools and Resources: howToUse/usefulTools.md
-      - Importing from Word (docx): howToUse/importingFromWord.md
-      - Styling and Advanced Features:
-        - Custom Features: howToUse/customFeatures.md
-        - Custom Admonitions: howToUse/admonition.md
-      - Looking for Inspiration: howToUse/previousEventLabs.md
-      - Before the Event: howToUse/beforeTheEvent.md

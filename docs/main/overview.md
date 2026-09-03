@@ -5,23 +5,12 @@ icon: material/bullseye-arrow
 
 ## Get your login credentials
 
-1. In the Chrome browser open the lab access page **<copy>https://lab-assistant.com</copy>**
+## Get your login credentials
 
-2. Enter the access code **<copy>163728</copy>** and press **Enter**.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login1.png)
-
-3. Navigate to the **POD** section.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login2.png)
-
-4. Look at the bottom of your right screen; you will see tag with your pod number.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login3.png)
-
-5. Select the pod that is associated with the number tag attached to your screen.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login4.png)
-
-6. Use this Attendee ID and login details to follow the lab. You can copy and paste login credentials and other details into a notepad if this would be convenient for you.
-
+On your screen, look for the file named Credentials_21109_(ID). Open the file; you should see the following information:
    ![Profiles](../graphics/Lab1_AI_Agent/Login5.png)
+
+As the next step, you need to set up your lab for your Attendee ID. In this case, you will all do configuration on the same tenant without interrupting other users.
 
 <!-- Markdown content with embedded HTML -->
 <div>
@@ -57,27 +46,26 @@ You are designing a **Webex AI Agent** for a flower shop to assist customers wit
 
 ### Human Agent Support
 
-- **Provide the agent with a summary of the call**
+- **Enable the agent with call summeries**
 - **Provide live transcripts to improve the understanding of the customer's request**
 - **Suggest a response to the agent based on the knowledge base**
-- **Generate Post Call Summary**
+- **Utilize AI Memory feature to incrase the customer experience over the call**
 
 ### Supervisor Support
 
-- **Evaluate agent's quality of service using Evaluation form**
+- **Evaluate agent's and AI Agent's quality of service using Evaluation form**
 
 ## Learning Objectives
 
-Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"**
+Welcome to **"Hands-on AI in Action with Webex Contact Center: Building Connected Intelligence from Self-Service to Agent Assistance"**
 
-![Profiles](../graphics/NewLab/Overview/1.1.png)
+### ![Profiles](../graphics/NewLab/Overview/1.1.png)
 
 In this lab, participants will: <br><br>
 **• Uncover Trends & Opportunities:** Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. <br><br>
 **• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous AI Agent to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
 **• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. <br><br>
-**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality.<br><br>
-**• Predict Customer Sentiment:** Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive.<br><br>
+**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation and AI Memeory to enhance agent productivity and service quality.<br><br>
 **• Evaluate Agent's performance:** Learn to leverage AI QM to evaluate the agent's quality of provided service based on the preconfigured template.
 
 ## Disclaimer
