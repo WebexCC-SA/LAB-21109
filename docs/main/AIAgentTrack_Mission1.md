@@ -24,30 +24,26 @@ Your mission is to:
    ![Profiles](../graphics/Lab1_AI_Agent/2.58.png)
 
 3. Select **Start from Scratch**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.58.png)
-12. On **Create an AI agent** page select the following select the type of agent: **Autonomous**.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.58a.png)
 
-13. Provide the following information in the **Add the essential details**, then click **Create**:
+
+4. Click on **Autonomouse** and fill the agnet information as below and then click on **Create**.
 
     > Agent Name: **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>**
     >
     > System ID is created automatically
     >
-    > AI engine: **Webex AI Pro 1.0**
-    >
-    > Agent's goal: **_<copy>This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details. Do the math for the total flower price. For example if the agent want to order 20 roses and the price for one rose is 20 $ in the knowledge base it should calculate the total as 400 $. Add delivery 50 to the total if require.</copy>_**
+    > AI engine: **Webex AI Speech-to Speech***
+     ![Profiles](../graphics/Lab1_AI_Agent/2.58b.png)
 
-    > (<span style="color: red;"><strong>Read Only</strong></span>) Here you can find the best practices on how to write the  Agent"s goal.
-    >  [Do's and Don'ts when writing goals](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
+5. In the provile disable the AI transparecy node. As we are using this AI agent for testing only. 
+    ![Profiles](../graphics/Lab1_AI_Agent/2.16a.gif)
 
+6. Customize the Welcome message with: **_<copy>Hi there, my name is Blossom, the AI Agent. How can I assist you?</copy>_**
 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/2.16b.gif)
 
-14. Customize the Welcome message with: **_<copy>Hi there, my name is Blossom, the AI Agent. How can I assist you?</copy>_**
-
-    ![Profiles](../graphics/Lab1_AI_Agent/2.16.png)
-
-15. In the instructions, add additional specific guidelines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instructions section** (use the **copy** icon on the code block): <br>
+15. Click on the **Instractions** In the instructions, add additional specific guidelines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instructions section** (use the **copy** icon on the code block): <br>
 
     ``` text
     You are a flower ordering assistant.
@@ -158,23 +154,21 @@ Your mission is to:
 
 16. (<span style="color: red;"><strong>Read Only</strong></span>) Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
 
-17. Switch to **Knowledge** tab. From drop-down list, search for **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**. If you don't see your **Knowledge base** in the list it still could be processing. Then select the one we processed earlier for your user. From **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB_Plan_B</copy>**. Click on **Save changes**.
-    ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
+17. Switch to **Knowledge** tab. From drop-down list, search for **WebexOne_2000_AI_KB**. 
+    ![Profiles](../graphics/Lab1_AI_Agent/2.5.png)
 
 18. (<span style="color: red;"><strong>Read Only</strong></span>) Please review the screenshots below to understand the file content that you will be using for your Knowledge base.
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge1.png)
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge2.png)
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge3.png)
 
-18. **Publish** the AI Agent. Provide any version name in popped up window (e.g. "V1").<br>
+18. Clcik on **Save changes** and **Publish** the AI Agent. Provide any version name in popped up window (e.g. "V1").<br>
     ![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)
 
 ### Task 2. Test your AI Agent
 
-1. Click on **Preview** and test the AI Agent to understand how it behaves using the **chat channel** by clicking on **Start a chat**. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to ask what is the flower availability and prices and what would be the total for some flower that you select.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
-2. Click on **Preview** and test the AI Agent to understand how it behaves using the **voice channel** by clicking on **Start a call**. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flowers for my friend"><span class="copy"></span></span> and try to customize your order.
+1. Click on **Preview** and test the AI Agent to understand how it behaves using the **voice channel** by clicking on **Start a call**. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flowers for my friend"><span class="copy"></span></span> and try to customize your order.
    > **Note:** This Lab is being conducted in a classroom with approximately 20 attendees.  
    > Environmental factors, such as background noise and other attendees speaking next to you, may affect the response accuracy.  
    > For best results, it is **strongly recommended to use computer headphones**, if available.

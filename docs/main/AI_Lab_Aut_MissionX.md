@@ -13,14 +13,14 @@ Integrate the AI Agent with the Voice Flow.
 
 ### Task 1. Build WxCC voice flow with AI Agent.
 
-1. Open [Control Hub](https://admin.webex.com){:target="_blank"} and go to **Contact Center** navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**.
+1. In [Control Hub](https://admin.webex.com){:target="_blank"} under **Contact Center** navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.47.gif)
 
 2. One the next page select **Start from scratch** and click on **Next**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.48.a.png)
 
-3. Name the new flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click on **Create Flow**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.48.png)
+3. Name the new flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Keep the channel as **Voice** and click on **Create Flow**.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.48.ab.png)
 
 4. Make sure the **Edit** mode at the top is set to **ON**. Then, drag and drop the **Virtual Agent V2** and **Disconnect Contact** activities from the left panel onto the Design field.
     ![Profiles](../graphics/Lab1_AI_Agent/2.49.a.gif)
@@ -41,7 +41,8 @@ Integrate the AI Agent with the Voice Flow.
     - Connect the **Escalated** path from the **Virtual Agent V2** activity to the **Queue Contact** activity.
     - Connect the **Queue Contact** activity to the **Play Music** activity.
     - Click on the **Queue Contact** node and select **Static Queue**.
-    - Queue name: **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**
+    - Channel type: **Voice**
+    - Queue: **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**
     - **Play Music**
     - Create a loop by connecting the Play Music activity back to itself - to create a music loop, following the example provided below.
     - Click on the **Play Music** node and select Music File: **defaultmusic_on_hold_cisco_opus_no_1.wav**.
@@ -51,11 +52,11 @@ Integrate the AI Agent with the Voice Flow.
 7. **Validate** and **Publish** Flow. In the popped up window, click on dropdown menu to select **Latest** label (**DO NOT** Select any other tag but only **Latest**), then click **Publish**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.51.gif)
 
-8. Assign the Flow to your **Channel (Entry Point)**. Do this by first going to **Channels** and search for your channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**.
+8. Assign the Flow to your **Entry Point**. Do this by first going to **Entry Points** and search for **<copy><w class="attendee"></w>\_2000_Channel</copy>** and then click on it.
    ![Profiles](../graphics/Lab1_AI_Agent/2.52.png)
 
 
-9. Click on **<copy><w class="attendee"></w>\_2000_Channel</copy>**. In the **Channel** settings section, change the following and then **Save** the changes.<br/>
+9. In the **Entry Point** settings section, change the following and then **Save** the changes.<br/>
     Routing Flow: **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**<br/>
     Version Label: **Latest**<br/>
     ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
@@ -72,7 +73,7 @@ Integrate the AI Agent with the Voice Flow.
 
 3. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** channel, and during the conversation with the AI agent, ask to **talk to a representative or live agent**.
 
-4. By default, the **Conversation Transcripts** setting is enabled in VirtualAgentV2 block.
+4. (<span style="color: red;"><strong>Read Only</strong></span>) By default, the **Conversation Transcripts** setting is enabled in VirtualAgentV2 block.
    ![Profiles](../graphics/Lab1_AI_Agent/2.54.png)
 
 5. With this setting enabled, the live agent can see the conversation details between the caller and the AI agent. Please check if you can view the IVR transcripts during your test calls with Agent Handoff.
