@@ -75,6 +75,24 @@
     fill: var(--md-accent-fg-color);
 }
 
+.md-header__inner {
+    height: auto;
+    min-height: 2.4rem;
+}
+
+.md-header__title {
+    font-size: clamp(0.52rem, 1vw, 0.68rem);
+    line-height: 1.25;
+}
+
+.md-header__ellipsis,
+.md-header__topic,
+.md-header__title .md-ellipsis {
+    overflow: visible;
+    text-overflow: unset;
+    white-space: normal;
+}
+
 copy::after, .copy::after {
   content: "\f0c5"; /* Font Awesome code for the copy icon */
   font-family: "Font Awesome 5 Free"; /* The font-family may vary, ensure it matches the imported version */

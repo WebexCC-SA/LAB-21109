@@ -116,7 +116,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 7. Add one more **SetVariable** node and connect them in series.
    ![Profiles](../graphics/Lab1_AI_Agent/19.9.gif) 
 
-8. We will need to assign the metadata from AI agent to the **order_request_details** string variable. To do so click on **VirtualAgentV2** node, on the right side scroll down until you will see Activity output variable. Copy the name of the variable related to MetaData. Go to your second SetVariable node and configure **order_request_details** with value of the Metadata that you copy inside of the {{}}. See the gif below. 
+8. We will need to assign the metadata from AI agent to the **order_request_details** string variable. To do so click on **VirtualAgentV2** node, on the right side scroll down until you will see Activity output variable. Copy the name of the variable related to MetaData. Go to your second SetVariable node and configure **order_request_details** with value of the Metadata that you copy inside of the {% raw %}{{}}{% endraw %}. See the gif below. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.10.gif) 
 
 9. Add **Case** node and connect **SetVariable** node to the **Case** node.  
@@ -138,16 +138,16 @@ In this Mission you will be using the Voice flow to execute the API call to crea
     - Request URL: **<copy>https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder</copy>**
     - Method: **POST**
     - Content type: **Application/JSON**
-    - Request body: **<copy>{{order_request_details}}</copy>**
+    - Request body: **<copy>{% raw %}{{order_request_details}}{% endraw %}</copy>**
        ![Profiles](../graphics/Lab1_AI_Agent/19.15.gif)
 
 14. Connect **HTTP Request** node to **VirtuaAgentV2** node.
    ![Profiles](../graphics/Lab1_AI_Agent/19.16.gif)
 
-15. Click on **VirtualAgentV2** node, open **State Event** and configure the **Event Name** as **<copy>{{event_name}}</copy>**. In this case when the interaction returns to the AI agent it stays in the same session and AI agent continue the conversation accordingly. 
+15. Click on **VirtualAgentV2** node, open **State Event** and configure the **Event Name** as **<copy>{% raw %}{{event_name}}{% endraw %}</copy>**. In this case when the interaction returns to the AI agent it stays in the same session and AI agent continue the conversation accordingly. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.17.gif)
 
-16. Next you need to bring the API call results back to your AI agent. For this, click on the **HTTP Request** node, scroll down on the right side and copy the name of the HTTPRequest...ResponseBody. Then go do **VirtualAgentV2** node, open the **State Events** insert the Http body response to the **Event Data** inside of the {{}}. See the steps on the gif below. 
+16. Next you need to bring the API call results back to your AI agent. For this, click on the **HTTP Request** node, scroll down on the right side and copy the name of the HTTPRequest...ResponseBody. Then go do **VirtualAgentV2** node, open the **State Events** insert the Http body response to the **Event Data** inside of the {% raw %}{{}}{% endraw %}. See the steps on the gif below. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.17_.gif)
 
 
@@ -169,7 +169,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 2. Add **SetVariable** node and connect it between **HTTP Request** node and **VirtualAgentV2** nodes. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.22.gif)
 
-3. Click on **Http Request** node. On the right side scroll down to the Activity output variables, and copy the name that is related to Response Body. Then go to the **SetVariable** block and configure it with Variable **Flower_order_details** and the value that you copied from HTTP Request node inside of the {{}}. See the gif below. 
+3. Click on **Http Request** node. On the right side scroll down to the Activity output variables, and copy the name that is related to Response Body. Then go to the **SetVariable** block and configure it with Variable **Flower_order_details** and the value that you copied from HTTP Request node inside of the {% raw %}{{}}{% endraw %}. See the gif below. 
    ![Profiles](../graphics/Lab1_AI_Agent/19.23.gif)
 
 4. Validate and publish the flow. 
@@ -190,7 +190,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
     - Request URL: **<copy>https://hooks.us.webexconnect.io/events/93VKZM1N24</copy>**
     - Method: **POST**
     - Content type: **Application/JSON**
-    - Request body: Body output variable from HTTP request node that you use to create order. The same one that you was using for **SetVariable** node to post the data to Analyzer. See the gif below. **Put it inside of {{}}**.
+    - Request body: Body output variable from HTTP request node that you use to create order. The same one that you was using for **SetVariable** node to post the data to Analyzer. See the gif below. **Put it inside of {% raw %}{{}}{% endraw %}**.
        ![Profiles](../graphics/Lab1_AI_Agent/19.27.gif)
 
 

@@ -16,41 +16,15 @@ Your mission is to:
 
 ## Build
 
-### Task 1. Create a new AI Agent with Knowladge Base
+1.  In Control Hub under the Contact Center service click on Overview and on the right side click on **Webex AI Agent**.
 
-1. Download the .xlsx file [Flowrs_Catalog](https://docs.google.com/spreadsheets/d/1A5d1ZEPWmPE_38Bi8bVULKLhCH0wyGX4/edit?usp=sharing&ouid=100862210011127627593&rtpof=true&sd=true){:target="\_blank"}.
-   > **Flower_Catalog.xlsx** - file contains information on the available single flowers and bouquets, including the price of the flowers or bouquets and occasions that suit the flowers.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.74.png)
-2. Microsoft office is not installed on this PC so you cannot open the file directly to review it. So please review the screenshots below to understand the file content that you will be using for you Knowledge base.
-   ![Profiles](../graphics/Lab1_AI_Agent/Knowledge1.png)
-   ![Profiles](../graphics/Lab1_AI_Agent/Knowledge2.png)
-   ![Profiles](../graphics/Lab1_AI_Agent/Knowledge3.png)
+    ![Profiles](../graphics/Lab1_AI_Agent/2.3.1a.png)
 
-3. Go to [Webex Control Hub](https://admin.webex.com){:target="\_blank"}.
+2. Navigate to **AI Agents** from the left-hand side menu panel and click on **Create Agent**.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.58.png)
 
-4. Open **Contact Center** from the left side navigation panel, and under **Overview > Quick Links**, click on **Webex AI Agent**.
-   ![Profiles](../graphics/Lab1_AI_Agent/L1M6_OpenWebexAI1.gif)
-
-
-
-5. In AI Agent Builder, navigate to **Knowledge** from the menu panel on the left side.
-
-6. Click **Create Knowledge Base**, provide Knowledge base name as **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**, then click **Create**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.1.gif)
-
-7. Click on **Upload Files**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.1.a.png)
-
-8. Click **Add File** or drag and drop the downloaded file **Flower_Catalog.xlsx** you downloaded on **Step 1**. Then click **Process Files**. Wait until the file is processed. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
-
-
-9. <span style="color: red;">[Read Only]</span> : You can also create an Article or refer your Websites for the Knowledge source. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.2.a.png)
-
-10. Navigate to **AI Agents** from the left-hand side menu panel and click on **Create Agent**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.58.gif)
-11. Select **Start from Scratch** and click **Next**.
+3. Select **Start from Scratch**.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.58.png)
 12. On **Create an AI agent** page select the following select the type of agent: **Autonomous**.
 
 13. Provide the following information in the **Add the essential details**, then click **Create**:
@@ -63,7 +37,7 @@ Your mission is to:
     >
     > Agent's goal: **_<copy>This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details. Do the math for the total flower price. For example if the agent want to order 20 roses and the price for one rose is 20 $ in the knowledge base it should calculate the total as 400 $. Add delivery 50 to the total if require.</copy>_**
 
-    > <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Agent"s goal.
+    > (<span style="color: red;"><strong>Read Only</strong></span>) Here you can find the best practices on how to write the  Agent"s goal.
     >  [Do's and Don'ts when writing goals](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
 
 
@@ -182,10 +156,15 @@ Your mission is to:
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.4.png)
 
-16. <span style="color: red;">[Read Only]</span> Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
+16. (<span style="color: red;"><strong>Read Only</strong></span>) Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
 
 17. Switch to **Knowledge** tab. From drop-down list, search for **<copy><w class="attendee"></w>\_2000_AI_KB</copy>**. If you don't see your **Knowledge base** in the list it still could be processing. Then select the one we processed earlier for your user. From **Knowledge base** drop-down list, select **<copy><w class="attendee"></w>\_2000_AI_KB_Plan_B</copy>**. Click on **Save changes**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
+
+18. (<span style="color: red;"><strong>Read Only</strong></span>) Please review the screenshots below to understand the file content that you will be using for your Knowledge base.
+   ![Profiles](../graphics/Lab1_AI_Agent/Knowledge1.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/Knowledge2.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/Knowledge3.png)
 
 18. **Publish** the AI Agent. Provide any version name in popped up window (e.g. "V1").<br>
     ![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)

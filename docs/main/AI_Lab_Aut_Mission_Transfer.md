@@ -69,7 +69,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 5. Add **Set Variable** node to the flow and connect **Escalated** output of the **VirtualAgentV2** block to the **Set Variable** node.
    ![Profiles](../graphics/Lab1_AI_Agent/11.10.gif)
 
-6. Click on **Set Variable** node, select Variable as **MetaData_AI**. For the Variable Value, first click on **VirtualAgentV2** block and copy the name of the MetaData Activity Output Variable. Then post this value inside of the {{ }} to the Variable Value field.
+6. Click on **Set Variable** node, select Variable as **MetaData_AI**. For the Variable Value, first click on **VirtualAgentV2** block and copy the name of the MetaData Activity Output Variable. Then post this value inside of the {% raw %}{{ }}{% endraw %} to the Variable Value field.
    ![Profiles](../graphics/Lab1_AI_Agent/11.12.gif)
 
 7. Connect **Set Variable** block to the **Queue** node for now. **Validate** and **Publish** the Flow.
