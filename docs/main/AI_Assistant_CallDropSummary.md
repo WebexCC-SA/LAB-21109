@@ -28,7 +28,7 @@ Your mission is to:
 
 ## Testing
 
-1. Switch to Control Hub and navigate to **Channels** under Customer Experience Section
+1. Switch to Collaboration Control Hub and navigate to **Channels** under Customer Experience Section
   
     >
     > Locate your Inbound Channel (you can use the search): **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Channel">Your_Attendee_ID</span>_Channel<span class="copy" title="Click to copy!"></span></span>**
@@ -67,7 +67,7 @@ Your mission is to:
 7. **Wait for the call to timeout and disconnect. This simulates an accidental call drop.**
 
     !!! Note
-        Since the call drop must be system initiated, the queue **Q_CallDrop** has been pre-configured with a maximum time in queue of 10 seconds (pictured on screenshot from Control Hub). Wait in the queue for about 10 seconds for the system to drop the call "automatically". 
+        Since the call drop must be system initiated, the queue **Q_CallDrop** has been pre-configured with a maximum time in queue of 10 seconds (pictured on screenshot from Collaboration Control Hub). Wait in the queue for about 10 seconds for the system to drop the call "automatically". 
     
     ![Profiles](../graphics/Lab2/CallDropSum_DummyQueue.png)
 

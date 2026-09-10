@@ -11,7 +11,7 @@ Your mission is to integrate the Scripted AI agent with the Voice flow to enable
 
 ### Task 1. Add the newly created Scripted Agent to the Voice flow.
 
-1. In [Control Hub](https://admin.webex.com){:target="_blank"}, go to **Contact Center**, click on **Flows**, and search for the flow with name \*\*<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>\*\* (that you created during the Autonomous AI lab).
+1. In [Collaboration Control Hub](https://admin.webex.com){:target="_blank"}, go to **Contact Center**, click on **Flows**, and search for the flow with name \*\*<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>\*\* (that you created during the Autonomous AI lab).
    ![Profiles](../graphics/Lab1_AI_Agent/6.27.gif)
 
 2. Click on **Edit** and rename the flow to **<copy>Autonomous*Scripted_Flow_2000*<w class="attendee"></w></copy>**. Publish the flow.
@@ -38,7 +38,7 @@ Your mission is to integrate the Scripted AI agent with the Voice flow to enable
 9. **Validate** and Publish the Flow.
    ![Profiles](../graphics/Lab1_AI_Agent/6.35.gif)
 
-10. From Control Hub, make sure that the Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**.
+10. From Collaboration Control Hub, make sure that the Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.36.gif)
 
 11. Dial the number that is associated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>\_2000_Channel** Channel.

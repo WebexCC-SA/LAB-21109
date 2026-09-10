@@ -41,7 +41,7 @@ In this mission, you need to complete web chat configuration tasks, including cr
 
 ### Task 3. Create Entry Point for Chat
 
-1. Login to Control Hub and go to Channels and click on **Create Channel**.
+1. Login to Collaboration Control Hub and go to Channels and click on **Create Channel**.
    ![Profiles](../graphics/Lab1_AI_Agent/4.8.png)
 
 2. Input **_Name_** as **<copy><w class="attendee"></w>\_2000_Chat_Channel</copy>**
@@ -52,7 +52,7 @@ In this mission, you need to complete web chat configuration tasks, including cr
 
 ### Task 4. Create Queue for Chat
 
-1.  While on the **Control Hub** portal, go to Queues and click on **Create a queue**.
+1.  While on the **Collaboration Control Hub** portal, go to Queues and click on **Create a queue**.
     ![Profiles](../graphics/Lab1_AI_Agent/4.11.png)
 
 2.  Input **_Name_** as **<copy><w class="attendee"></w>\_2000_Chat_Queue</copy>**. Also select **`Chat`** in the **_Channel Type_** section.
@@ -66,7 +66,7 @@ In this mission, you need to complete web chat configuration tasks, including cr
 
 ### Task 5. Website Widget Configuration
 
-1.  Login to Webex Engage Portal from Control Hub.
+1.  Login to Webex Engage Portal from Collaboration Control Hub.
     ![Profiles](../graphics/Lab1_AI_Agent/4.15.gif)
 
 2.  Go to **_Assets_** -> search and edit **<copy>Chat*App*<w class="attendee"></w>\_2000</copy>** which you have created in Connect Portal.

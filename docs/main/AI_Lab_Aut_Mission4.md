@@ -28,7 +28,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 
 ### Task 1. Create Service and AI Agent Flow in Webex Connect. 
 
-1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
+1. From Collaboration Control Hub, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
 
 

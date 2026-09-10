@@ -9,7 +9,7 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 
 ### Task 1. Create Flow for the Campaign
 
-1. Login to [Control Hub](https://admin.webex.com){:target="\_blank"}.
+1. Login to [Collaboration Control Hub](https://admin.webex.com){:target="\_blank"}.
 
 2. Go to Contact Center > Flows, click on **Create Flow**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.3.png)

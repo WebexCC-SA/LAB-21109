@@ -13,7 +13,7 @@ Integrate the AI Agent with the Voice Flow.
 
 ### Task 1. Build WxCC voice flow with AI Agent.
 
-1. In [Control Hub](https://admin.webex.com){:target="_blank"} under **Contact Center**, navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**.
+1. In [Collaboration Control Hub](https://admin.webex.com){:target="_blank"} under **Contact Center**, navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.47.gif)
 
 2. On the next page select **Start from scratch** and click on **Next**.
@@ -63,23 +63,4 @@ Integrate the AI Agent with the Voice Flow.
 10. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** to test the Autonomous AI Agent over a voice call.
    ![Profiles](../graphics/Lab1_AI_Agent/2.84.png)
 
-### Task 2. Test Agent Handoff Configurations
-
-1. Go to **Control Hub** and from **Overview > Quick Links**, select **Desktop** option. Select **Desktop** endpoint option and choose the team **<copy><w class="attendee"></w>\_2000_Team</copy>**. Click **Save and Continue**. Allow browser to access Microphone by clicking **Allow** on every visit.
-   ![profiles](../graphics/Lab1_AI_Agent/5-Agent_Login.gif)
-
-2. Make your Agent **Available** and you're ready to make a call.
-   ![profiles](../graphics/Lab1_AI_Agent/5-Agent_.gif)
-
-3. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** channel, and during the conversation with the AI agent, ask to **talk to a representative or live agent**.
-
-4. (<span style="color: red;"><strong>Read Only</strong></span>) By default, the **Conversation Transcripts** setting is enabled in the VirtualAgentV2 block.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.54.png)
-
-5. With this setting enabled, the live agent can see the conversation details between the caller and the AI agent. Please check if you can view the IVR transcripts during your test calls with Agent Handoff.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.55.png)
-
-6. The human agent also receives the AI Agent Summary and, after the call, the Wrap Up Summary as part of the AI Assistant portfolio. 
-   ![profiles](../graphics/Lab1_AI_Agent/5-Agent_1.gif)
-
-<p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI Agent lab! 🎉🎉 </strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

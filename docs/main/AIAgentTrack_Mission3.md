@@ -38,7 +38,7 @@ Your mission is to:
 
     ![Profiles](../graphics/Lab1/L1M6_TaskBot_FlowtoEP.gif)  
 
-2. In **Control Hub** select **Contact Center** from the left panel and then navigate to Flows from the left panel. Search and open your flow **<span class="attendee-id-container">TaskBot_Flow_<span class="attendee-id-placeholder" data-prefix="TaskBot_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. 
+2. In **Collaboration Control Hub** select **Contact Center** from the left panel and then navigate to Flows from the left panel. Search and open your flow **<span class="attendee-id-container">TaskBot_Flow_<span class="attendee-id-placeholder" data-prefix="TaskBot_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. 
 
 3. Switch the Edit button to **On** to enable Edit mode in the flow builder then drag and drop following nodes:
 

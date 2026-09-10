@@ -85,7 +85,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 
 ### Task 3. Configure fulfillment logic in the Voice flow. 
 
-1. In **Control Hub** go to Flows and open your flow with name **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Click on **Edit**.
+1. In **Collaboration Control Hub** go to Flows and open your flow with name **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Click on **Edit**.
    ![Profiles](../graphics/Lab1_AI_Agent/19.3.gif)
 
 2. Remove **DisconnectContact** node. 
@@ -178,7 +178,7 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 
 We have preconfigured the SMS flow in this lab that can be triggered using Webhook. To understand the configuration:
 
-1. From **Control Hub**, go to **Contact Center** > **Overview** > **Webex Connect**.
+1. From **Collaboration Control Hub**, go to **Contact Center** > **Overview** > **Webex Connect**.
        ![Profiles](../graphics/Lab1_AI_Agent/19.28.gif)
 
 2. Open up Service **<copy>180_2000_Service_</copy>** > **Flows**. This is the lab proctor Service where Webhook was configured to trigger the SMS. 

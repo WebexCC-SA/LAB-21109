@@ -44,7 +44,7 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 2. Review the response configuration after clicking the **Voice** channel
      ![Profiles](../graphics/Lab1_AI_Agent/6.75.png) 
 
-3. Go to [Control Hub](https://admin.webex.com){:target="_blank"} > Contact Center. Click on **Flows** and open the flow with name ***Autonomous_Scripted_Flow_2000_180***<span class="copy-static" title="Click to copy!" data-copy-text="Autonomous_Scripted_Flow_2000_180"><span class="copy"></span></span>.
+3. Go to [Collaboration Control Hub](https://admin.webex.com){:target="_blank"} > Contact Center. Click on **Flows** and open the flow with name ***Autonomous_Scripted_Flow_2000_180***<span class="copy-static" title="Click to copy!" data-copy-text="Autonomous_Scripted_Flow_2000_180"><span class="copy"></span></span>.
      ![Profiles](../graphics/Lab1_AI_Agent/6.76.gif) 
 
 4. Click on the lower VirtualAgentV2 block. You will see the Activity Output Variables. The Entity value can be found in VirtualAgentV2.MetaData. 

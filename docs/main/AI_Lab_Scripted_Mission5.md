@@ -30,7 +30,7 @@ In the previous **Mission 3**, you created intents, entities, and responses to e
 
 ### Task 2. Make API call from Voice Flow to retrieve the order status
 
-1. From [Control Hub](https://admin.webex.com){:target="_blank"}, go to Contact Center click on Flows. Open up your flow. If you follow all lab steps, the name should be \*\*<copy>Autonomous_Scripted_Flow_2000_<w class="attendee"></w></copy>\*\*. Or if you have different name, find your flow. Click on it to open the Flow.
+1. From [Collaboration Control Hub](https://admin.webex.com){:target="_blank"}, go to Contact Center click on Flows. Open up your flow. If you follow all lab steps, the name should be \*\*<copy>Autonomous_Scripted_Flow_2000_<w class="attendee"></w></copy>\*\*. Or if you have different name, find your flow. Click on it to open the Flow.
    ![Profiles](../graphics/Lab1_AI_Agent/6.41.gif)
 
 2. Select **Edit** for the flow, click anywhere on the gray area in the flow, and look for the **Flow Variables** on the right side.

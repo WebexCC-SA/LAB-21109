@@ -44,7 +44,7 @@ Topic Analytics enables you to modify your topic collections, allowing you to ta
 
 ### Task 3. Review Topic Analytics reports in AI Assistant Dashboard
 
-1. From [Control Hub](https://admin.webex.com){:target="\_blank"}, login to Analyzer.
+1. From [Collaboration Control Hub](https://admin.webex.com){:target="\_blank"}, login to Analyzer.
    ![Profiles](../graphics/Lab1_AI_Agent/1.18.png)
 
 2. Click on **Dashboard** and search for the Dashboard with name **_<copy>AI Assistant Dashboard</copy>_**. Open the Dashboard with ID -1284.

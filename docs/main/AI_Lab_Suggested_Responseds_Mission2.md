@@ -17,7 +17,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
 
 ### Task 1. Create flow in Webex Connect
 
-1. From the **Control Hub**, login to Webex Connect.
+1. From the **Collaboration Control Hub**, login to Webex Connect.
    ![Profiles](../graphics/Lab1_AI_Agent/9.16.png)
 
 

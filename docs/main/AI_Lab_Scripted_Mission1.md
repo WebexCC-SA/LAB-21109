@@ -14,7 +14,7 @@ Your mission is to create a new Scripted AI Agent from the template and configur
 1.  Download the [Scripted Agent](https://drive.google.com/file/d/1HjXCeIJ4TkcW8XOIHePVKa6pVi6Lw2sO/view?usp=sharing){:target="\_blank"}.
     ![Profiles](../graphics/Lab1_AI_Agent/6.91.png)
 
-2.  Login in to [Webex Control Hub](https://admin.webex.com){:target="\_blank"} by using your Admin profile **<copy>wxcclabs+admin_ID<w class="attendee"></w>@gmail.com</copy>**.
+2.  Login in to [Collaboration Control Hub](https://admin.webex.com){:target="\_blank"} by using your Admin profile **<copy>wxcclabs+admin_ID<w class="attendee"></w>@gmail.com</copy>**.
 
 3.  Go to Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**.
 

@@ -10,10 +10,10 @@ The all-new topic analytics empowers you to discover emerging topics as customer
 
 ### Task 1. Review the UI for the Real-Time Topic Dashboard for Administrators. 
 
-1. Login to [Control Hub](https://admin.webex.com){:target="_blank"} using your admin credentials. 
+1. Login to [Collaboration Control Hub](https://admin.webex.com){:target="_blank"} using your admin credentials. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.37.gif)
 
-2. In **Control Hub** navigate to **Contact Center** and under **Overview** find **Desktop** option. Click on it. 
+2. In **Collaboration Control Hub** navigate to **Contact Center** and under **Overview** find **Desktop** option. Click on it. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.38.gif)
 
 3. Make sure the team is selected that associated with your account. For the Handle calls option use **Desktop**.

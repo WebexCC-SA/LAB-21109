@@ -27,11 +27,11 @@ Your mission is to:
 
 ## Build
 
-### (<span style="color: red;"><strong>Read Only</strong></span>) Task 1. Order Provisioning & Control Hub Settings
+### (<span style="color: red;"><strong>Read Only</strong></span>) Task 1. Order Provisioning & Collaboration Control Hub Settings
 
 1. You should have the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
 
-2. Once you have provisioned it, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. From there, the customer can enable/disable the **Real-time Transcriptions** feature from the Control Hub.
+2. Once you have provisioned it, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Collaboration Control Hub. From there, the customer can enable/disable the **Real-time Transcriptions** feature from the Collaboration Control Hub.
    ![Profiles](../graphics/Lab1_AI_Agent/3.10.png)
 
 3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured (**Note: Default desktop layout already incudes the AI Agent Assistance widget**). <br/>

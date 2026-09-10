@@ -16,7 +16,7 @@ Your mission is to:
 
 ## Build
 
-1.  In Control Hub under the Contact Center service click on Overview and on the right side click on **Webex AI Agent**.
+1.  In Collaboration Control Hub under the Contact Center service click on Overview and on the right side click on **Webex AI Agent**.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.3.1a.png)
 

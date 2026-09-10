@@ -113,20 +113,14 @@ nav:
               - "Mission 6: Configure Action with MCP": ./main/AI_Lab_Aut_Mission_MCP.md
           - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
   - AI Assistant:
-      - AI Assistant Featurs:
+      - Generated Summaries:
           - Lab Guide:
-              - "Lab overview": ./main/AI_Lab_Features_Overview.md
-              - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
-              - 'Mission 2: (<span style="color: red;"><strong>Optional</strong></span>) Real Time Transcript': ./main/AI_Lab_Assist_Mission3.md
-              - "Mission 3: Wrap Up Summary": ./main/AI_Lab_Assist_Mission4.md
-              - 'Mission 4: (<span style="color: red;"><strong>Read Only</strong></span>) Call Drop Summary': ./main/AI_Lab_Assist_Mission_2.md
-              - 'Mission 5: (<span style="color: red;"><strong>Read Only</strong></span>) AutoCSAT': ./main/AI_Lab_Assist_AutoCSAT.md
-          - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
-      - 'Real-Time Assist (Suggested Responses) (<span style="color: red;"><strong>Optional</strong></span>)':
+              - "Lab overview": ./main/AI_Lab_Generated_Summaries_Overview.md
+              - "Mission 1: AI Agent Transfer Summary and Wrap-up Summary": ./main/AI_Lab_Assist_Mission1.md
+      - Real-Time Assist:
           - Lab Guide:
               - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
               - "Mission 1: Configure Real-Time Assist with Knowledge Base": ./main/AI_Lab_Suggested_Responseds_Mission1.md
-              - 'Mission 2: (<span style="color: red;"><strong>Optional</strong></span>) Configure Fulfillment': ./main/AI_Lab_Suggested_Responseds_Mission2.md
           - Conclusion: ./main/AI_Lab_Suggested_Responseds_Conclusion.md
   - AI QM:
       - Quality Managment:
@@ -136,10 +130,6 @@ nav:
               - "Mission 2": ./main/AI_Lab_QM_Mission2.md
           - Conclusion: ./main/AI_Lab_SupervisorAI_Conclusion.md
   - BONUS Labs:
-      - Extensions From Required Labs:
-          - Autonomous AI:
-              - 'Mission 4: (<span style="color: red;"><strong>Read Only</strong></span>) Configure Fulfillment Using Webex Connect Flow': ./main/AI_Lab_Aut_Mission2.md
-              - 'Mission 8: (<span style="color: red;"><strong>Optional</strong></span>) Customize AI Agent Language': ./main/AI_Lab_Aut_Mission.Language.md
       - Full Additional Labs:
           - Scripted AI Agent:
               - Lab Guide:
@@ -163,3 +153,16 @@ nav:
                   - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
                   - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
               - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
+      - Extensions From Required Labs:
+          - Autonomous AI:
+              - 'Mission 4: (<span style="color: red;"><strong>Read Only</strong></span>) Configure Fulfillment Using Webex Connect Flow': ./main/AI_Lab_Aut_Mission2.md
+              - 'Mission 8: (<span style="color: red;"><strong>Optional</strong></span>) Customize AI Agent Language': ./main/AI_Lab_Aut_Mission.Language.md
+          - Real-Time Assist:
+              - 'Mission 2: (<span style="color: red;"><strong>Optional</strong></span>) Configure Fulfillment': ./main/AI_Lab_Suggested_Responseds_Mission2.md
+          - AI Assistant Featurs:
+              - Lab Guide:
+                  - "Lab overview": ./main/AI_Lab_Features_Overview.md
+                  - 'Mission 2: (<span style="color: red;"><strong>Optional</strong></span>) Real Time Transcript': ./main/AI_Lab_Assist_Mission3.md
+                  - 'Mission 4: (<span style="color: red;"><strong>Read Only</strong></span>) Call Drop Summary': ./main/AI_Lab_Assist_Mission_2.md
+                  - 'Mission 5: (<span style="color: red;"><strong>Read Only</strong></span>) AutoCSAT': ./main/AI_Lab_Assist_AutoCSAT.md
+              - Conclusion: ./main/AI_Lab_Assist_Conclusion.md

@@ -41,7 +41,7 @@ For this mission, the proctor has created a Webex AI Agent named **Flower_Wholes
 
 ### Task 2. Configure Voice flow to Transfer the call to **Flower_Wholesale** AI Agent
 
-1. Go to **Control Hub** and open up your flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Click on **Edit** the flow.
+1. Go to **Collaboration Control Hub** and open up your flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Click on **Edit** the flow.
    ![Profiles](../graphics/Lab1_AI_Agent/14.6.gif)
 
 2. Click on **Case** node and add one more option with value **<copy>Wholesale</copy>**.

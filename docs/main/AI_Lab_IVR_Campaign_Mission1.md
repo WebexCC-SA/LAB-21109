@@ -11,7 +11,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 
 ### Task 1. Create new Google Profile
 
-1. Currently, users with aliases are not allowed to log in to the new Campaign Management portal. Engineering is working to resolve this issue. However, for this lab, we will all be using one user account (**wxcclabscx@gmail.com**). Since you are already using the default Chrome profile to log in to Control Hub, you will need to create an additional Chrome profile to log in to the Campaign Management portal.
+1. Currently, users with aliases are not allowed to log in to the new Campaign Management portal. Engineering is working to resolve this issue. However, for this lab, we will all be using one user account (**wxcclabscx@gmail.com**). Since you are already using the default Chrome profile to log in to Collaboration Control Hub, you will need to create an additional Chrome profile to log in to the Campaign Management portal.
 
 2. Open up Google Chrome and on the right top side click on the profiles and then click on **Add Chrome Profile**.
    ![Profiles](../graphics/Lab1_AI_Agent/7.16.png)
@@ -50,7 +50,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 8. For this lab, **Field Mapping** is preconfigured. However, it is important for you to understand that, during the creation of the field mapping, we assigned the Global Variables to match the headers of the file you will be uploading when managing the campaign list.
    ![Profiles](../graphics/Lab1_AI_Agent/8.41.png)
 
-9. Click on **Global Variable**. These attributes are configured in the control hub application. Webex Campaign will receive these variables from control hub application. At least one variable has to be made a customer unique identifier.
+9. Click on **Global Variable**. These attributes are configured in the Collaboration Control Hub application. Webex Campaign will receive these variables from Collaboration Control Hub application. At least one variable has to be made a customer unique identifier.
    ![Profiles](../graphics/Lab1_AI_Agent/7.7.png)
 
 10. Click on **Purpose meta-tags**. This feature provides a way to separate and maintain the type of campaigns; a user can set up for particular business requirements. During campaign activation, you can tag the campaign with one or more purposes. This allows the enterprise to analyze what type of campaigns they are creating through the platform and helps to maintain a ‘balanced diet’ of communications for contacts.
@@ -68,7 +68,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 14. While on **Telephony outcome settings**, click on Edit of any of them and you will see the how they are configured now. You can customize it per your buisness logic.
     ![Profiles](../graphics/Lab1_AI_Agent/7.12.png)
 
-15. Click on **Wrap-up code settings**. These settings refer to the codes that are tagged by the agent after ending the call. They allow businesses to categorize and record the outcome of each call made to a contact. These codes are created in Control Hub.
+15. Click on **Wrap-up code settings**. These settings refer to the codes that are tagged by the agent after ending the call. They allow businesses to categorize and record the outcome of each call made to a contact. These codes are created in Collaboration Control Hub.
     ![Profiles](../graphics/Lab1_AI_Agent/7.13.png)
 
 16. Click on **Edit any of the Wrap-up code settings** to review how it is configured.
