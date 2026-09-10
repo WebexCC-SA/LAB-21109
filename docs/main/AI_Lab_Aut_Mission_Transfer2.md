@@ -3,7 +3,7 @@
 icon: material/medal
 ---
 
-# Mission 6: Configure Transfer Action for Webex AI Agent
+# Mission 5: Configure Transfer Action for Webex AI Agent
 
 **<details><summary>What is a Transfer to Webex AI Agent Action? <span style="color: orange;"></span></summary>**
 
@@ -15,7 +15,7 @@ Transfer Action is a task that an AI agent performs by understanding user intent
 
 Your mission is to:
 
-For this mission, the proctor has created Webex AI Agent named **Flower_Wholesale**. The goal of this mission is to transfer the call from your AI agent to **Flower_Wholesale** using the Transfer operation. <br>
+For this mission, the proctor has created a Webex AI Agent named **Flower_Wholesale**. The goal of this mission is to transfer the call from the AI Agent that you created to **Flower_Wholesale** AI Agent using the Transfer operation. <br>
 ![Profiles](../graphics/Lab1_AI_Agent/TransfertoAI.png)
 
 ---
@@ -33,10 +33,10 @@ For this mission, the proctor has created Webex AI Agent named **Flower_Wholesal
 3. Adjust the Transfer condition by adding **<copy>or Wholesale</copy>** as the department option.
    ![Profiles](../graphics/Lab1_AI_Agent/14.3.gif)
 
-4. Adjust entiry example by adding **<copy>Wholesale</copy>**.
+4. Adjust entity example by adding **<copy>Wholesale</copy>**. Then click on **Save**.
    ![Profiles](../graphics/Lab1_AI_Agent/14.4.gif)
 
-5. **Save** and **Publish** the changes.
+5. **Publish** the changes.
    ![Profiles](../graphics/Lab1_AI_Agent/14.5.gif)
 
 ### Task 2. Configure Voice flow to Transfer the call to **Flower_Wholesale** AI Agent
@@ -50,10 +50,10 @@ For this mission, the proctor has created Webex AI Agent named **Flower_Wholesal
 3. Bring additional **VirtualAgentV2** node to the flow.
    ![Profiles](../graphics/Lab1_AI_Agent/14.8.gif)
 
-4. Connect **Wholesale** output from **Case** node to **VirtualAgentV2**. Connect **Handled** output from **VirtualAgentV2** to the **DisconnectContact** node. Connect **Escalate** output from **VirtualAgentV2** to Queue that is configured with **<w class="attendee"></w>\_2000_Voice_Queue**.
+4. Connect **Wholesale** output from **Case** node to **VirtualAgentV2**. Connect **Handled** output from **VirtualAgentV2** to the **DisconnectContact** node. Connect **Escalate** output from **VirtualAgentV2** to the default Queue that is configured with **<w class="attendee"></w>\_2000_Voice_Queue**.
    ![Profiles](../graphics/Lab1_AI_Agent/14.9.gif)
 
-5. Click on the **VirtualAgentV2** and select **Webex AI Agent (Autonomous)** with name **Flower_WholeSale**.
+5. Click on the **VirtualAgentV2** and select **Webex AI Agent (Autonomous)** with name **Flower_Wholesale**.
    ![Profiles](../graphics/Lab1_AI_Agent/14.10.gif)
 
 6. **Validate** and **Publish** the flow.
@@ -61,18 +61,19 @@ For this mission, the proctor has created Webex AI Agent named **Flower_Wholesal
 
 ### Task 3. Test Webex AI Agent transfer to Webex AI Agent
 
-Place a call to the number associated with your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to order several boxes or roses. **For example ask for 2 boxes of red roses**. You will be connected to an AI agent who can assist you with ordering flowers if you need to purchase at least one box (each box contains 100 flowers). In this case, the price will be different. Below, you can find the screenshot of the knowledge base used by the Flower_WholeSale AI Agent.
+Place a call to the number associated with your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to order several boxes of roses. **For example ask for 2 boxes of red roses**. You will be connected to an AI agent who can assist you with ordering flowers if you need to purchase at least one box (each box contains 100 flowers). In this case, the price will be different. Below, you can find the screenshot of the knowledge base used by the Flower_Wholesale AI Agent.
 ![Profiles](../graphics/Lab1_AI_Agent/14.12.png)
+
 
 Or you can review the full configuration of the **Flower_Wholesale** AI Agent in the AI Agent Studio.
 ![Profiles](../graphics/Lab1_AI_Agent/14.14.png)
 
 
-Task 4. Configure the context share between two AI Agents.
+### Task 4. Configure the context share between two AI Agents.
 
-For now when the first AI agent transferred the call to the second AI agent, the context was not shared. So the wholesale AI agent would need to ask the customer question about the context that was already shared with the first AI agent. For example how many boxed of flowers they need. There is feature the share the context between AI agents and you will be enabling it in this Task. 
+For now, when the first AI agent transferred the call to the second AI agent, the context was not shared. So the wholesale AI agent would need to ask the customer questions about the context that was already shared with the first AI agent. For example, how many boxes of flowers they need. There is a feature to share the context between AI agents and you will be enabling it in this Task. 
 
-1. Go to you voice flow and open up the configurations for the Wholesale AI agent
+1. Go to your voice flow and open up the configurations for the Wholesale AI agent
 ![Profiles](../graphics/Lab1_AI_Agent/14.15.png)
 
 2. Open up **State Event** section and under the **Event Data** enter the following (use the **copy** icon on the code block):
@@ -92,7 +93,5 @@ For now when the first AI agent transferred the call to the second AI agent, the
 
 
 4. Place test call and ask to order 3 boxes of red roses. You should be redirected to the Wholesale department and the second AI agent should know the context of the conversation once it is connected. 
-
-5. In the AI agent settings if you go to **Actions** and open the **Transfer_to_different_department** action there is option to enable the **Announce transfer**. Enable it and place one more test call. You should see the announcement that you call will be transferred to another department 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
