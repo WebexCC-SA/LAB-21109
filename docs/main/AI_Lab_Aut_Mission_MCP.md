@@ -22,11 +22,11 @@ For this mission, the MCP server was created and deployed on AWS with two tools:
 1) Check Flower Store Locations. The addresses are stored on the MCP server itself.</br>
 2) Check the order status by sending an API call with the order ID to the MockAPI repository. </br>
 
-This MCP Server repository you can find on GitHub below. In the **README.md** file you will be able to find instructions on how to deploy it on AWS. You can use it as the example for implementing the MCP server for your production tenant, but for this lab it is already deployed so the link below is just the reference of the source code. </br>
+This MCP Server repository can be found on GitHub below. In the **README.md** file you will be able to find instructions on how to deploy it on AWS. You can use it as an example for implementing the MCP server for your production tenant, but for this lab it is already deployed so the link below is just the reference of the source code. </br>
 </br>
 **<copy>https://github.com/mdanylch/store_address_2000</copy>**
 
-In this mission you will work on adding this External MCP server to Webex cloud and plug it in with your AI Agent.
+In this mission you will work on adding this external MCP server to Webex cloud and plug it in with your AI Agent.
 
 ![Profiles](../graphics/Lab1_AI_Agent/MCPAction.png)
 
@@ -36,12 +36,12 @@ In this mission you will work on adding this External MCP server to Webex cloud 
 
 ### Task 1. Create Agentic App in Webex Developer Portal. 
 
-1. Open [Webex Developer Portal](https://developer.webex.com/){:target="_blank"} .
+1. Open [Webex Developer Portal](https://developer.webex.com/){:target="_blank"}.
 
 2. Click on **Login**. Login with your admin credentials.
 ![Profiles](../graphics/Lab1_AI_Agent/15.1.png)
 
-3. Under the Profile, click on **My Webex App**
+3. Under the Profile, click on **My Webex App**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.2.png)
 
 4. Click on **Create a New App**.
@@ -50,10 +50,13 @@ In this mission you will work on adding this External MCP server to Webex cloud 
 5. On the next page, select **Create an Agentic App**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.4.png)
 
-6. Name your app as **<copy><w class="attendee"></w>\_MCP_Server</copy>**
+6. For the Agentic App URL enter **<copy>https://y4drgmvgpb.us-east-1.awsapprunner.com/mcp</copy>** and for Agentic App auth type select **Custom Headers**. Finally, click on **Add Agentic App**.
+![Profiles](../graphics/Lab1_AI_Agent/15.8.png)
+
+7. Name your app as **<copy><w class="attendee"></w>\_MCP_Server_21109</copy>**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.5.png)
 
-7. For **Agent App Description**, paste the text below (use the **copy** icon on the code block):
+8. For **Agent App Description**, paste the text below (use the **copy** icon on the code block):
 
     ``` text
     This MCP server is used for the following:
@@ -63,10 +66,10 @@ In this mission you will work on adding this External MCP server to Webex cloud 
     ```
 ![Profiles](../graphics/Lab1_AI_Agent/15.6.png)
 
-8. Select an available Agentic App Icon. Click 2 times on an Icon. 
+9. Select an available Agentic App Icon. Click twice on an icon. 
 ![Profiles](../graphics/Lab1_AI_Agent/15.7.gif)
 
-9. For the Agentic App URL enter **<copy>https://y4drgmvgpb.us-east-1.awsapprunner.com/mcp</copy>** and for Agentic App auth type select **Custom Headers**. Finally click on **Add Agentic App**.
+10. For the Agentic App auth type select **Custom Headers**. Finally, click on **Add Agentic App**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.8.png)
 
 
@@ -78,7 +81,7 @@ In this mission you will work on adding this External MCP server to Webex cloud 
 2. Open **Apps**, then click on **Agentic Apps**. 
 ![Profiles](../graphics/Lab1_AI_Agent/15.9.png)
 
-3. In the Apps find your Server name that is associated with your ID **<copy><w class="attendee"></w>\_MCP_Server</copy>** and open it. 
+3. In Apps, find your server name that is associated with your ID **<copy><w class="attendee"></w>\_MCP_Server_21109</copy>** and open it. 
 
 4. Make it **Allowed for all users** and enable the **Authorize automatic server data updates**. Click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.10a.png)
@@ -86,7 +89,7 @@ In this mission you will work on adding this External MCP server to Webex cloud 
 5. Click on **Authentication**. Configure the custom header with **Key 1**: **<copy>MCP_REQUEST_HEADERS</copy>** and the **Value** **<copy>4f9a2b7e1d8c6b3a0f92e4d5c6b8a1f7</copy>**. Then click on **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.11.png)
 
-6. Click on **Tools** and Allow **get_store_locations** and **check_order_status** tools and **Allow signature change**. Click **Save**.
+6. Click on **Tools** and allow **get_store_locations** and **check_order_status** tools and **Allow signature change**. Click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.12.png)
 
 ### Task 3. Configure the MCP Server tools with your AI agent. 
@@ -94,7 +97,7 @@ In this mission you will work on adding this External MCP server to Webex cloud 
 1. Open up your AI Agent and go to **Actions**, click on **Add action**, click on **Select available**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.13.png)
 
-2. Add the tools that are associated with your Agentic App name, and click on **Add**.
+2. You can search by your Attendee ID and add the tools that are associated with your Agentic App name, and click on **Add**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.14.png)
 
 3. **Publish** the changes. 
