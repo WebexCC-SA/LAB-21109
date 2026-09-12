@@ -3,13 +3,13 @@
 icon: material/medal
 ---
 
-# Mission 1: Configure flow to Evaluate the agents' answers.
+# Mission 1: Configure Evaluation of human agent's answers
 
 ## Mission overview
 
 Your mission is to:
 
-Create an Evaluation Form with requirements to ask the caller's name and the occasion for the flower purchase. Make test calls and, using the Supervisor Dashboard, evaluate if the agent asked these questions to the caller.
+Create an Evaluation Form with requirements to ask the caller's name and the occasion for the flower purchase. Make test calls and, using the Supervisor Dashboard, evaluate if the human agent asked these questions to the caller.
 
 ---
 
@@ -51,7 +51,7 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
 1. Go back to your non-incognito browser and check if your agent is still logged in. You might still be logged in after completing the AI Assistant lab. If not, please login to your agent desktop using your **Admin** account.
    ![Profiles](../graphics/Lab1_AI_Agent/12.10.png)
 
-2. Place a test call to the number that is associated with your channel **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>** and ask to talk to the human agent. During the conversation, ask the caller's name but don't ask what the occasion of the flowers is.
+2. Place a test call to the number that is associated with your channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to talk to the human agent. During the conversation, ask the caller's name but don't ask what the occasion of the flowers is.
    ![Profiles](../graphics/Lab1_AI_Agent/12.11.png)
 
 3. Go back to your Supervisor Desktop in the Incognito Window, click on **Interactions** and select **Completed**. Find you call you will see that Evaluation score is 50%. Because only one of two questions was asked by the agent. 

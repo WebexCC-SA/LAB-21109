@@ -3,45 +3,40 @@
 icon: material/medal
 ---
 
-# Mission 1: Configure Coaching Insights.
+# Mission 2: Configure Evaluation of AI Agent's answers
 
 ## Mission overview
 
 Your mission is to:
 
-Configure the Coaching Insights and review the results. 
+Create an Evaluation Form with the same requirements used for the human agent: ask the caller's name and the occasion for the flower purchase. Assign the form to your AI Agent, make a test call, and have a conversation with the AI Agent. Then, using the Supervisor Dashboard, evaluate if the AI Agent asked the required questions.
 
 ---
 
 ## Build
 
-### Task 1. Enable Coaching Insights
+### Task 1. Create Evaluation form for the AI Agent
 
-1. In your Supervisor portal go to **Configurations** and then select **Coaching Insights**
-   ![Profiles](../graphics/Lab1_AI_Agent/12.16.gif)
+1. In your Supervisor Desktop (Incognito Window), click on **Configurations** and create a Duplicate of the form that you created for Mission 1 - **<copy><w class="attendee"></w>\_2000_Flower_Form_</copy>**.
+   ![Profiles](../graphics/Lab1_AI_Agent/12.24.gif)
 
-2. Enable the Coaching Insights for your team. You can search for it using your team name:  **<copy><w class="attendee"></w>_2000_Team</copy>**.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.17.png)
+2. In the Form assignment section, remove the queue. 
+   ![Profiles](../graphics/Lab1_AI_Agent/12.25.gif)
 
-3. Click on **View**.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.18.png)
+3. Instead of the Queues, now select that this form will be assigned to your AI Agent. 
+   ![Profiles](../graphics/Lab1_AI_Agent/12.26.gif)
 
-4. Enable the **Average Wrap Up Duration** and configure it between 1 and 5 seconds. We are doing it in order to trigger any threshold from these requirements as it will then shows in the Team Performance table.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.19.png)
+4. Rename the Form to specify it is for AI Agent tracking. 
+   ![Profiles](../graphics/Lab1_AI_Agent/12.27.png)
 
-5. Click **Save updates**.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.20.png)
-
-6. Place test call, connect it to your agent, let the call be wrapped up automatically. 
-
-7. On Supervisor Dashboard, got to **Team Performance** > **Historical**. 
-   ![Profiles](../graphics/Lab1_AI_Agent/12.21.gif)
-
-8. Find your team by searching for **<copy><w class="attendee"></w>_2000_Team</copy>**. Then click on **View**
-   ![Profiles](../graphics/Lab1_AI_Agent/12.22.png)
-
-9. You will see the Team Performance KPI together with Coaching Insights on the bottom.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.23.png)
+5. **Publish** the form. 
+   ![Profiles](../graphics/Lab1_AI_Agent/12.28.gif)
 
 
+### Task 2. Evaluate the AI Agent using the Evaluation form
+
+1. Place a test call to the number that is associated with your channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**. Talk to the AI Agent and disconnect the conversation. 
+
+2. Go back to your Supervisor Desktop in the Incognito Window, click on **Interactions** and select **Completed**. Look for your call and check the evaluation score. The AI Agent is not configured to ask the caller's name, but it is configured to ask for the occasion for the flowers. So you are expected to see a 50% evaluation score. 
+   ![Profiles](../graphics/Lab1_AI_Agent/12.29.gif)
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

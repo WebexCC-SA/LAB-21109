@@ -126,8 +126,9 @@ nav:
       - Quality Managment:
           - Lab Guide:
               - "Lab overview": ./main/AI_Lab_QM_Overview.md
-              - "Mission 1": ./main/AI_Lab_QM_Mission1.md
-              - "Mission 2": ./main/AI_Lab_QM_Mission2.md
+              - "Mission 1: Configure Evaluation of human agent's answers": ./main/AI_Lab_QM_Mission1.md
+              - "Mission 2: Configure Evaluation of AI Agent's answers": ./main/AI_Lab_QM_Mission2.md
+              - "Mission 3: Configure Coaching Insights": ./main/AI_Lab_QM_Mission3.md
           - Conclusion: ./main/AI_Lab_SupervisorAI_Conclusion.md
   - BONUS Labs:
       - Full Additional Labs:
