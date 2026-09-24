@@ -13,19 +13,15 @@ On your screen, look for the file named Credentials_21109_(ID). Open the file; y
 As the next step, you need to set up your lab for your Attendee ID. In this case, you will all do configuration on the same tenant without interrupting other users.
 
 <!-- Markdown content with embedded HTML -->
-<div>
-    <h3><b>Please submit the Attendee ID below.</b></h3> 
-    <h3>All configuration entries in the lab guide will be renamed to include your Attendee ID.</h3>
+<div class="attendee-id-box">
+    <h3><b>Please submit the Attendee ID below.</b></h3>
+    <p>All configuration entries in the lab guide will be renamed to include your Attendee ID.</p>
     <form id="info">
         <label for="attendee">Attendee ID:</label>
-        <input type="text" id="attendee" name="attendee" placeholder="Enter 3 digits" required>
-        <button onclick="setValues()">Save</button>
+        <input type="text" id="attendee" name="attendee" placeholder="Enter 3 digits" maxlength="3" required>
+        <button type="button" onclick="setValues()">Save</button>
     </form>
-
-    <br>
-
-    <p>Your stored Attendee ID is:<w class="attendee"> No ID stored</w></p>
-
+    <p class="attendee-id-status">Your stored Attendee ID is: <w class="attendee">No ID stored</w></p>
 </div>
 
 ## Overview of the lab's Use Case
