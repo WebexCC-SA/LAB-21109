@@ -117,6 +117,7 @@ nav:
           - Lab Guide:
               - "Lab overview": ./main/AI_Lab_Generated_Summaries_Overview.md
               - "Mission 1: AI Agent Transfer Summary and Wrap-up Summary": ./main/AI_Lab_Assist_Mission1.md
+              - "Mission 2: Wrap-up custom template": ./main/AI_Lab_Assist_Wrapup_Custom_Template.md
       - Real-Time Assist:
           - Lab Guide:
               - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
