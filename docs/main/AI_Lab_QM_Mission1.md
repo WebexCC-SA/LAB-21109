@@ -17,33 +17,25 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
 
 ### Task 1. Create Evaluation form
 
-1. In your browser, open **New Incognito Window** (need a new Desktop window to login as Supervisor).
-   ![Profiles](../graphics/Lab1_AI_Agent/12.1.gif)
 
-2. In this Incognito Window open up [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/) .
-   ![Profiles](../graphics/Lab1_AI_Agent/12.2.gif)
-
-3. Login with your Supervisor credentials. In the **"Set your interaction preferences"** pop-up window, select Role as **Supervisor** and Handle calls using **Desktop**. Allow using microphone.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.3.gif)
-
-4. Click on **Configurations** and then select to **Create a form**.
+1. Click on **Configurations** and then select to **Create a form**.
    ![Profiles](../graphics/Lab1_AI_Agent/12.4.png)
 
-5. In the Form title field enter **<copy><w class="attendee"></w>\_2000_Flower_Form_</copy>**. In the Section name field enter **<copy>Initial_Questions</copy>**
+2. In the Form title field enter **<copy><w class="attendee"></w>\_2000_Flower_Form_</copy>**. In the Section name field enter **<copy>Initial_Questions</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/12.5.png)
 
-6. Configure the first question with the following:<br>
+3. Configure the first question with the following:<br>
    > Question: **<copy>Was the caller's name asked?</copy>**<br>
    ![Profiles](../graphics/Lab1_AI_Agent/12.6.png)
 
-7. **Add question** and configure the second question with the following:<br>
+4. **Add question** and configure the second question with the following:<br>
    > Question: **<copy>Have the agent asked what the occasion for the flowers was?</copy>**<br>
    ![Profiles](../graphics/Lab1_AI_Agent/12.7.png)
 
-8. Scroll up and click on **Add assignment**. From the list of queues, select your queue **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**. And click on **Assign**.
+5. Scroll up and click on **Add assignment**. From the list of queues, select your queue **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**. And click on **Assign**.
    ![Profiles](../graphics/Lab1_AI_Agent/12.8.gif)
 
-9. **Publish** the form.
+6. **Publish** the form.
    ![Profiles](../graphics/Lab1_AI_Agent/12.9.gif)
 
 ### Task 2. Evaluate agent using the Evaluation form

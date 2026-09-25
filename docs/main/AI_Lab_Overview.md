@@ -12,3 +12,4 @@ You are designing a Webex Autonomous AI agent for a flower store. This AI agent 
 6. The customer can always be transferred to a live agent from the appropriate department, along with the details of the conversation between the AI Agent and the caller.
 7. The AI Agent can use an external MCP server to fulfill the customer's requests.
 8. The AI Agent can use AI Memory to provide a better customer experience during the interactions.
+9. Use **Observability** in AI Agent Studio to review the dashboard for AI Agent performance.

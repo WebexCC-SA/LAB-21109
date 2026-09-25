@@ -111,6 +111,7 @@ nav:
               - "Mission 4: Configure Transfer Action for a Specific Queue": ./main/AI_Lab_Aut_Mission_Transfer.md             
               - "Mission 5: Configure Transfer Action for Webex AI Agent": ./main/AI_Lab_Aut_Mission_Transfer2.md
               - "Mission 6: Configure Action with MCP": ./main/AI_Lab_Aut_Mission_MCP.md
+              - "Mission 7: Observability": ./main/AI_Lab_Aut_Mission_Observability.md
           - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
   - AI Assistant:
       - Generated Summaries:
@@ -123,6 +124,10 @@ nav:
               - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
               - "Mission 1: Configure Real-Time Assist with Knowledge Base": ./main/AI_Lab_Suggested_Responseds_Mission1.md
           - Conclusion: ./main/AI_Lab_Suggested_Responseds_Conclusion.md
+      - AI Memory:
+          - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_AI_Memory_Overview.md
+              - "Mission 1: Review AI Memory in Customer Journey": ./main/AI_Lab_AI_Memory_Mission1.md
   - AI QM:
       - Quality Managment:
           - Lab Guide:
