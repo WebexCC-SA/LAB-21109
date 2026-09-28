@@ -83,7 +83,7 @@ In this mission, you will use the Voice flow to execute the API call that create
 12. **Publish** your AI Agent.
    ![Profiles](../graphics/Lab1_AI_Agent/19.33.gif)
 
-### Task 3. Configure fulfillment logic in the Voice flow.
+### Task 2. Configure fulfillment logic in the Voice flow.
 
 1. In **Collaboration Control Hub**, go to Flows and open your flow with name **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Click on **Edit**.
    ![Profiles](../graphics/Lab1_AI_Agent/19.3.gif)
@@ -152,7 +152,7 @@ In this mission, you will use the Voice flow to execute the API call that create
 
 
 
-### Task 4. Configure SMS Confirmation.
+### Task 3. Configure SMS Confirmation.
 
 1. Create a new JSON variable with the following:
 
@@ -209,4 +209,4 @@ In this mission, you will use the Voice flow to execute the API call that create
 
 
 
-<p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI Agent lab! 🎉🎉 </strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

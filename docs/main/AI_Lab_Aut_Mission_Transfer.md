@@ -30,7 +30,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 2. Open your AI agent with name **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>** and then click on **Actions**.
    ![Profiles](../graphics/Lab1_AI_Agent/11.2.png)
 
-3. Select **Add actions** option and create new **Transfer** action.
+3. Select **Add actions** option and create a new **Transfer** action.
    ![Profiles](../graphics/Lab1_AI_Agent/11.3.gif)
 
 4. Name the action as **<copy>Transfer_to_different_department</copy>**.<br/> In the **Transfer condition** field, paste **<copy>When the customer wants to transfer the call to HR or Billing department use this Action</copy>**.
@@ -74,7 +74,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 7. Connect **Set Variable** block to the **Queue** node for now. **Validate** and **Publish** the Flow.
    ![Profiles](../graphics/Lab1_AI_Agent/11.13.gif)
 
-8. Place a test call to the number that is related to your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**. During the conversation with AI Agent **ask to transfer you to the HR department**. The call should go to the only Queue that is currently configured in the flow.
+8. Place a test call to the number that is related to your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**. During the conversation with the AI Agent **ask to transfer you to the HR department**. The call should go to the only Queue that is currently configured in the flow.
 
 9. After the call is completed, click on Debug and review the metadata in the Set Variable block.
    ![Profiles](../graphics/Lab1_AI_Agent/11.14.gif)
@@ -85,7 +85,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 11. (<span style="color: red;"><strong>Read Only</strong></span>) To parse the value in the flow, we need to determine the JSON path to retrieve the value. By using an open-source tool (e.g. [JSONPath Online Evaluator](https://jsonpath.com/){:target="\_blank"}), you can ensure you are using the correct JSON path to extract the value you need. In our case, the JSON path is **$.actions.Transfer_to_different_department[0].input.department** to retrieve the value for the department entity.
     ![Profiles](../graphics/Lab1_AI_Agent/11.16.png)
 
-12. Move from the Debug to **Design** field. Create new flow **string** variable with name **<copy>department</copy>**.
+12. Move from the Debug to **Design** field. Create a new flow **string** variable with name **<copy>department</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/11.17.gif)
 
 13. Add **Parse** block to the flow and connect **Set Variable** block to the **Parse** block.
@@ -112,7 +112,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 17. Bring two **Queue Contact** nodes to the flow.
     ![Profiles](../graphics/Lab1_AI_Agent/11.21.gif)
 
-18. Configure one **Queue node** with **Voice** channel and **<copy>2000_HR_Queue</copy>** as the queue and the other one with **Voice** channel **<copy>2000_Billing_Queue</copy>** as the Queue name.
+18. Configure one **Queue Contact** node with **Voice** channel and **<copy>2000_HR_Queue</copy>** as the queue and the other one with **Voice** channel **<copy>2000_Billing_Queue</copy>** as the Queue name.
     ![Profiles](../graphics/Lab1_AI_Agent/11.22.gif)
 
 19. Connect **HR** output from **Case** node to the **HR Queue** node. Connect **HR Queue** node to the **Play Music** node.
@@ -127,7 +127,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 22. **Validate** and **Publish** the flow.
     ![Profiles](../graphics/Lab1_AI_Agent/11.26.gif)
 
-23. Place a test call to the number that is related to your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**. During the conversation with AI Agent **ask to transfer you to the HR department**. The call should park to a queue. After the call is completed, go to Debug, find the call to make sure it went to the HR Queue.
+23. Place a test call to the number that is related to your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**. During the conversation with the AI Agent **ask to transfer you to the HR department**. The call should park in a queue. After the call is completed, go to Debug, find the call to make sure it went to the HR Queue.
     ![Profiles](../graphics/Lab1_AI_Agent/11.27.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

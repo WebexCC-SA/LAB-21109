@@ -16,7 +16,7 @@ Your mission is to:
 
 ## Build
 
-1.  In Collaboration Control Hub under the Contact Center service click on Overview and on the right side click on **Webex AI Agent**.
+1. In Collaboration Control Hub, under the Contact Center service, click on **Overview** and on the right side click on **Webex AI Agent**.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.3.1a.png)
 
@@ -27,23 +27,23 @@ Your mission is to:
    ![Profiles](../graphics/Lab1_AI_Agent/2.58a.png)
 
 
-4. Click on **Autonomouse** and fill the agnet information as below and then click on **Create**.
+4. Click on **Autonomous** and fill in the agent information as below and then click on **Create**.
 
     > Agent Name: **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>**
     >
     > System ID is created automatically
     >
-    > AI engine: **Webex AI Speech-to Speech***
+    > AI engine: **Webex AI Speech-to-Speech**
      ![Profiles](../graphics/Lab1_AI_Agent/2.58b.png)
 
-5. In the provile disable the AI transparecy node. As we are using this AI agent for testing only. 
+5. In the profile, disable the AI transparency node, as we are using this AI agent for testing only. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.16a.gif)
 
 6. Customize the Welcome message with: **_<copy>Hi there, my name is Blossom, the AI Agent. How can I assist you?</copy>_**
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.16b.gif)
 
-15. Click on the **Instractions** In the instructions, add additional specific guidelines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instructions section** (use the **copy** icon on the code block): <br>
+7. Click on the **Instructions**. In the instructions, add additional specific guidelines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instructions section** (use the **copy** icon on the code block): <br>
 
     ``` text
     You are a flower ordering assistant.
@@ -152,23 +152,23 @@ Your mission is to:
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.4.png)
 
-16. (<span style="color: red;"><strong>Read Only</strong></span>) Here you can find the best practices on how to write the  Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
+8. (<span style="color: red;"><strong>Read Only</strong></span>) Here you can find the best practices on how to write the Instructions: [Prompt engineering tips when writing instructions](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent#concept-template_96114022-037a-46be-80ce-bf8c6b0d67c0){:target="_blank"}
 
-17. Switch to **Knowledge** tab. From drop-down list, search for **WebexOne_2000_AI_KB**. 
+9. Switch to **Knowledge** tab. From the drop-down list, search for **WebexOne_2000_AI_KB**. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.png)
 
-18. (<span style="color: red;"><strong>Read Only</strong></span>) Please review the screenshots below to understand the file content that you will be using for your Knowledge base.
+10. (<span style="color: red;"><strong>Read Only</strong></span>) Please review the screenshots below to understand the file content that you will be using for your Knowledge base.
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge1.png)
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge2.png)
    ![Profiles](../graphics/Lab1_AI_Agent/Knowledge3.png)
 
-18. Clcik on **Save changes** and **Publish** the AI Agent. Provide any version name in popped up window (e.g. "V1").<br>
+11. Click on **Save changes** and **Publish** the AI Agent. Provide any version name in the pop-up window (e.g. "V1").<br>
     ![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)
 
 ### Task 2. Test your AI Agent
 
 
-1. Click on **Preview** and test the AI Agent to understand how it behaves using the **voice channel** by clicking on **Start a call**. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flowers for my friend"><span class="copy"></span></span> and try to customize your order.
+1. Click on **Preview** and test the AI Agent to understand how it behaves using the **voice channel** by clicking on **Start a call**. You can start the conversation with: **"I need flowers for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flowers for my friend"><span class="copy"></span></span> and try to customize your order.
    > **Note:** This Lab is being conducted in a classroom with approximately 20 attendees.  
    > Environmental factors, such as background noise and other attendees speaking next to you, may affect the response accuracy.  
    > For best results, it is **strongly recommended to use computer headphones**, if available.

@@ -19,6 +19,6 @@ Enabled post-order communication by:
 
 ---
 
-This setup showcases a complete AI agent workflow —from recommendation to transaction and customer notification— using **Webex Contact Center’s Autonomous AI Agent** capabilities.
+This setup showcases a complete AI agent workflow — from recommendation to transaction and customer notification — using **Webex Contact Center’s Autonomous AI Agent** capabilities.
 
 This hands-on exercise demonstrated how Webex Autonomous Agent can streamline business processes, enhance customer interactions, and integrate with external systems to deliver a comprehensive solution.

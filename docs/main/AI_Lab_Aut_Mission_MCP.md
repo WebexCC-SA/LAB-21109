@@ -26,7 +26,7 @@ This MCP Server repository can be found on GitHub below. In the **README.md** fi
 </br>
 **<copy>https://github.com/mdanylch/store_address_2000</copy>**
 
-In this mission you will work on adding this external MCP server to Webex cloud and plug it in with your AI Agent.
+In this mission, you will work on adding this external MCP server to Webex cloud and plug it in with your AI Agent.
 
 ![Profiles](../graphics/Lab1_AI_Agent/MCPAction.png)
 
@@ -103,7 +103,7 @@ In this mission you will work on adding this external MCP server to Webex cloud 
 3. **Publish** the changes. 
 ![Profiles](../graphics/Lab1_AI_Agent/15.15.png)
 
-4. Place a test call. First ask for the store location, and then ask to trace the order that you have created earlier based on the order ID. 
+4. Place a test call. First ask for the store location, and then ask to track the order that you have created earlier based on the order ID. 
 
 5. You can also test the MCP connections from the **Chat or Voice Preview**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.16.png)

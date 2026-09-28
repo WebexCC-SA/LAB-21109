@@ -7,7 +7,10 @@ icon: material/bullseye-arrow
 
 ## Get your login credentials
 
-On your screen, look for the file named Credentials_21109_(ID). Open the file; you should see the following information:
+On your screen, look for the file named **Webex_One_AI_Attendee_(ID)** Open the file.<br>
+    ![Profiles](../graphics/Lab1_AI_Agent/Login5-1.png)
+
+ Open the file, you should see the following information that related to your ID.
    ![Profiles](../graphics/Lab1_AI_Agent/Login5.png)
 
 As the next step, you need to set up your lab for your Attendee ID. In this case, you will all do configuration on the same tenant without interrupting other users.
@@ -29,7 +32,6 @@ As the next step, you need to set up your lab for your Attendee ID. In this case
 
 You are designing a **Webex AI Agent** for a flower shop to assist customers with answering questions and ordering flowers. To support agents and supervisors with the latest AI tools, you will configure **AI Assistant** features.
 
-[Webex AI Agent use case example](https://blog.webex.com/customer-experience/announcing-general-availability-of-webex-ai-agent-paving-way-new-era-cx/){:target="_blank"}
 
 ### AI Agent Capabilities
 

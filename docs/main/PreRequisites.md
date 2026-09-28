@@ -16,7 +16,7 @@ icon: material/bullseye-arrow
 
 ### How to place calls:
 
-You can use your cellphone to place inboutn calls to the Contact Center for this lab. 
+You can use your cellphone to place inbound calls to the Contact Center for this lab. 
 
 Or you can follow the step below to login to Webex App and place calls from the Webex App. 
 
