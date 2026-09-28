@@ -81,7 +81,7 @@ In this mission, you will use the Voice flow to execute the API call that create
    ![Profiles](../graphics/Lab1_AI_Agent/19.2.png)
 
 12. **Publish** your AI Agent.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/19.33awww.png)
 
 ### Task 2. Configure fulfillment logic in the Voice flow.
 
