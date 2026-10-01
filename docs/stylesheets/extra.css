@@ -223,3 +223,15 @@ form#info button:hover{
 [data-md-color-scheme="slate"] .md-typeset .attendee-id-box w.attendee {
   color: #7adfff;
 }
+
+/* Yellow Optional labels — readable on light and dark nav */
+.md-nav .optional-yellow,
+.md-typeset .optional-yellow {
+  color: #d4a017 !important;
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .md-nav .optional-yellow,
+[data-md-color-scheme="slate"] .md-typeset .optional-yellow {
+  color: #ffeb3b !important;
+}

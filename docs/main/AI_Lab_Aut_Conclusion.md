@@ -19,6 +19,8 @@ Enabled post-order communication by:
 
 ---
 
+If you completed the optional mission, you also connected a **Bring Your Own LLM** through OpenRouter as a **Custom AI Engine**.
+
 This setup showcases a complete AI agent workflow — from recommendation to transaction and customer notification — using **Webex Contact Center’s Autonomous AI Agent** capabilities.
 
 This hands-on exercise demonstrated how Webex Autonomous Agent can streamline business processes, enhance customer interactions, and integrate with external systems to deliver a comprehensive solution.
