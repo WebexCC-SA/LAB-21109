@@ -15,13 +15,12 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
 
 ## Build
 
-### Task 1. Create Evaluation form
+### Task 1. Create Evaluation Form
 
-
-1. Click on **Configurations** and then select to **Create a form**.
+1. Click on **Configurations** and then select **Create a form**.
    ![Profiles](../graphics/Lab1_AI_Agent/12.4.png)
 
-2. In the Form title field enter **<copy><w class="attendee"></w>\_2000_Flower_Form_</copy>**. In the Section name field enter **<copy>Initial_Questions</copy>**
+2. In the Form title field, enter **<copy><w class="attendee"></w>\_2000_Flower_Form_</copy>**. In the Section name field, enter **<copy>Initial_Questions</copy>**.
    ![Profiles](../graphics/Lab1_AI_Agent/12.5.png)
 
 3. Configure the first question with the following:<br>
@@ -29,24 +28,30 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
    ![Profiles](../graphics/Lab1_AI_Agent/12.6.png)
 
 4. **Add question** and configure the second question with the following:<br>
-   > Question: **<copy>Have the agent asked what the occasion for the flowers was?</copy>**<br>
+   > Question: **<copy>Has the agent asked what the occasion for the flowers was?</copy>**<br>
    ![Profiles](../graphics/Lab1_AI_Agent/12.7.png)
 
-5. Scroll up and click on **Add assignment**. From the list of queues, select your queue **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**. And click on **Assign**.
+5. Scroll up and click on **Add assignment**. From the list of queues, select your queue **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**. Then click on **Assign**.
    ![Profiles](../graphics/Lab1_AI_Agent/12.8.gif)
 
 6. **Publish** the form.
-   ![Profiles](../graphics/Lab1_AI_Agent/12.9.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/12.9.png)
 
-### Task 2. Evaluate agent using the Evaluation form
+### Task 2. Evaluate the agent using the Evaluation Form
 
-1. Go back to your non-incognito browser and check if your agent is still logged in. You might still be logged in after completing the AI Assistant lab. If not, please login to your agent desktop using your **Admin** account.
+1. Make sure your Agent is in the Available status.
    ![Profiles](../graphics/Lab1_AI_Agent/12.10.png)
 
-2. Place a test call to the number that is associated with your channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to talk to the human agent. During the conversation, ask the caller's name but don't ask what the occasion of the flowers is.
+2. Place a test call to the number that is associated with your channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to talk to the human agent. During the conversation, ask for the caller's name but don't ask what the occasion for the flowers is.
    ![Profiles](../graphics/Lab1_AI_Agent/12.11.png)
 
-3. Go back to your Supervisor Desktop in the Incognito Window, click on **Interactions** and select **Completed**. Find you call you will see that Evaluation score is 50%. Because only one of two questions was asked by the agent. 
+3. In the Monitor section, go to Interactions.
+   ![Profiles](../graphics/Lab1_AI_Agent/12.11a.png)
+
+4. Click on **Completed** and review the Evaluation column that is related to your call. Depending on the overall system load, it could take a few minutes for the results to show up. So you might not see any score related to the call immediately. We already sent this feedback to the engineering team and they are working on improving the system so the results show immediately. 
+   ![Profiles](../graphics/Lab1_AI_Agent/12.11b.png)
+
+5. However, when all processes are completed, you will see the evaluation score under the Completed Interactions. Like in this example, the score is 50% because the agent asked only one of two questions from the Evaluation Form.
    ![Profiles](../graphics/Lab1_AI_Agent/12.12.png)
 
 
