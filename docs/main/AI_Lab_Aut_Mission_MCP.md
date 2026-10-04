@@ -50,7 +50,7 @@ In this mission, you will work on adding this external MCP server to Webex cloud
 5. On the next page, select **Create an Agentic App**.
 ![Profiles](../graphics/Lab1_AI_Agent/15.4.png)
 
-6. For the Agentic App URL enter **<copy>https://y4drgmvgpb.us-east-1.awsapprunner.com/mcp</copy>** and for Agentic App auth type select **Custom Headers**. Finally, click on **Add Agentic App**.
+6. For the Agentic App URL enter **<copy>https://y4drgmvgpb.us-east-1.awsapprunner.com/mcp</copy>**. 
 ![Profiles](../graphics/Lab1_AI_Agent/15.8.png)
 
 7. Name your app as **<copy><w class="attendee"></w>\_MCP_Server_21109</copy>**.

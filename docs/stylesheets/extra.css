@@ -13,6 +13,11 @@
     max-width: 1440px;
 }
 
+.md-typeset li img {
+    display: block;
+    clear: both;
+}
+
 :root {
     --md-primary-fg-color: #051C2C;
     --md-accent-fg-color: #00bdeb;

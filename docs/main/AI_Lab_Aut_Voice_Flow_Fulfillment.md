@@ -83,130 +83,16 @@ In this mission, you will use the Voice flow to execute the API call that create
 12. **Publish** your AI Agent.
    ![Profiles](../graphics/Lab1_AI_Agent/19.33awww.png)
 
-### Task 2. Configure fulfillment logic in the Voice flow.
 
-1. In **Collaboration Control Hub**, go to Flows and open your flow with name **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Click on **Edit**.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.3.gif)
-
-2. Remove the **DisconnectContact** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.4.gif)
-
-3. Create a flow string variable with name **<copy>event_name</copy>** and empty default value.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.5.gif)
-
-4. Create a flow string variable with name **<copy>order_request_details</copy>** and empty default value.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.6.gif)
-
-5. Add a **SetVariable** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.7.gif)
-
-6. Click on the **SetVariable** that you just created and configure your **event_name** variable to be assigned with the **VirtualAgentV2....StateEventName** variable. </br>
-   **Note:** *This event name will be the same as your Action name from the AI Agent Studio that is used for the fulfillment.*
-   ![Profiles](../graphics/Lab1_AI_Agent/19.8.gif)
-
-7. Add one more **SetVariable** node and connect them in series.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.9.gif)
-
-8. In the **SetVariable** node click on **Add new** and select Variable as **order_request_details** string variable. To assign the Virtual Agent metadata details to this variable you can either type metadata in the {% raw %}{{}}{% endraw %} and you will see it, or you can click on the **VirtualAgentV2** node, on the right side scroll down until you see the Activity output variable. Copy the name of the variable related to MetaData. Go back to your SetVariable node and configure **order_request_details** with the value of the Metadata that you copied inside of the {% raw %}{{}}{% endraw %}. See the gif below.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.10.gif)
-
-9. Add a **Case** node and connect the **SetVariable** node to the **Case** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.11.gif)
-
-10. Add **Disconnect Contact** and assign the **Default** output of the **Case** node to the **Disconnect Contact**.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.12.gif)
-
-11. Click on the **Case** node. Select **event_name** as the Case Variable. Remove the second Link Description. Keep only one Link Description, as for now you have only one action for fulfillment. In the Link Description provide the name of your action: **<copy>Create_New_Order</copy>**.
-   **Note:** *If you add more actions later, the Case node is used as the distribution logic for different fulfillment requests.*
-   ![Profiles](../graphics/Lab1_AI_Agent/19.13.gif)
-
-12. Add an **HTTP Request** node and connect the **Case** output link to the **HTTP Request** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.14.gif)
-
-13. Configure the **HTTP Request** with the following:
-
-    - Use authenticated endpoint: **Off**
-    - Request URL: **<copy>https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder</copy>**
-    - Method: **POST**
-    - Content type: **Application/JSON**
-    - Request body: **<copy>{% raw %}{{order_request_details}}{% endraw %}</copy>**
-       ![Profiles](../graphics/Lab1_AI_Agent/19.15.gif)
-
-14. Connect the **HTTP Request** node to the **VirtualAgentV2** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.16.gif)
-
-15. Click on the **VirtualAgentV2** node, open **State Event** and configure the **Event Name** as **<copy>{% raw %}{{event_name}}{% endraw %}</copy>**. In this case, when the interaction returns to the AI agent it stays in the same session and the AI agent continues the conversation accordingly.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.17.gif)
-
-16. Next you need to bring the API call results back to your AI agent. For this, click on the **HTTP Request** node, scroll down on the right side and copy the name of the HTTPRequest...ResponseBody. Then go to the **VirtualAgentV2** node, open the **State Events**, and insert the HTTP body response to the **Event Data** inside of the {% raw %}{{}}{% endraw %}. See the steps on the gif below.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.17_.gif)
-
-17. Enable decryption in the flow so you can monitor your further test call details.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.19.gif)
-
-18. **Validate** and **Publish** the flow with the **Latest** tag.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.18.gif)
-
-19. Place a test call to your test number. Ask to order flowers, and provide the requested information. You should hear that the order was completed successfully. If you have an issue, you can troubleshoot using the flow debugger. First trace the call in the voice flow to make sure the HTTP request was successful. Click on the HTTP Request node, decrypt the results to make sure you got a 201 status result.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.20.gif)
+### Task 2. Test Fulfillment.
 
 
 
-### Task 3. Configure SMS Confirmation.
+1. Place a test call, order flowers, and specify a number for SMS confirmation. Your order should be completed, and you should receive the SMS.
 
-1. Create a new JSON variable with the following:
+    ![Profiles](../graphics/Lab1_AI_Agent/19.33a.png)
 
-    - Name: **<copy>Order_SMS</copy>**
-    - Variable Type: **JSON**
-    - Default Value: **<copy>{}</copy>**
-       ![Profiles](../graphics/Lab1_AI_Agent/19.26.gif)
+2. <span style="color: red;">**[Read Only]**</span> In the voice flow, the fulfillment branch was already preconfigured for this lab. You can review the configuration to understand it by tracing the call in the flow designer. In the flow designer, we use an **HTTP Request** node to send an HTTP request to a third-party application to create an order object. Then we send these results to the caller over SMS, and we send the order details back to the AI Agent in the **State Event**.
 
-2. Delete the link between the **HTTP Request** and **VirtualAgentV2** nodes.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33.gif)
-
-3. Bring the **SetVariable** node and connect the **HttpRequest** node to this **SetVariable** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33ab.gif)
-
-4. In the **SetVariable** node, configure the **Order_SMS** variable with the outbound body variable from the **HTTP Request** node. Please check the gif below.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33abck.gif)
-
-5. Bring the **Parse** node and connect the **SetVariable** node to the **Parse** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33abc.gif)
-
-6. Create a new String variable with the following:
-
-    - Name: **<copy>PhoneNumber_SMS</copy>**
-    - Variable Type: **String**
-       ![Profiles](../graphics/Lab1_AI_Agent/19.33abcd.gif)
-
-7. Click on the **Parse** node and configure it with the following:
-
-    - Input variable: **<copy>Order_SMS</copy>**
-    - Variable Type: **JSON**
-    - Output variable: **<copy>PhoneNumber_SMS</copy>**
-    - Path expression: **<copy>$.phoneNumber</copy>**
-       ![Profiles](../graphics/Lab1_AI_Agent/19.33abce.gif)
-
-8. Bring the **Send SMS** node and connect the **Parse** node to the **Send SMS** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33abcf.gif)
-
-9. Click on the **Send SMS** node and configure it with the following:
-
-    - To number: **<copy>{% raw %}{{PhoneNumber_SMS}}{% endraw %}</copy>**
-    - Entry point: **CCBU_SMS**
-    - Message type: **<copy>Text</copy>**
-    - Message content: **<copy>{% raw %}{{Order_SMS}}{% endraw %}</copy>**
-       ![Profiles](../graphics/Lab1_AI_Agent/19.33abcg.gif)
-
-10. Connect the **Send SMS** node to the **VirtualAgentV2** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33abch.gif)
-
-11. **Validate** and **Publish** the flow.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33abcj.gif)
-
-12. Place a test call, create an order with a number for SMS confirmation, and you should receive the SMS.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.33a.png)
-
-
-
+    ![Profiles](../graphics/Lab1_AI_Agent/19.33b.png)
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
