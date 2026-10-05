@@ -5,12 +5,10 @@ icon: material/bullseye-arrow
 
 ## Get your login credentials
 
-## Get your login credentials
-
-On your screen, look for the file named **Webex_One_AI_Attendee_(ID)** Open the file.<br>
+On your screen, look for the file named **Webex_One_AI_Attendee_(ID)**. Open the file.<br>
     ![Profiles](../graphics/Lab1_AI_Agent/Login5-1.png)
 
- Open the file, you should see the following information that related to your ID.
+Open the file. You should see the following information related to your ID. One of the items is the Attendee ID that you will need to enter in the next step.
    ![Profiles](../graphics/Lab1_AI_Agent/Login5.png)
 
 As the next step, you need to set up your lab for your Attendee ID. In this case, you will all do configuration on the same tenant without interrupting other users.
@@ -44,10 +42,10 @@ You are designing a **Webex AI Agent** for a flower shop to assist customers wit
 
 ### Human Agent Support
 
-- **Enable the agent with call summeries**
+- **Enable the agent with call summaries**
 - **Provide live transcripts to improve the understanding of the customer's request**
 - **Suggest a response to the agent based on the knowledge base**
-- **Utilize AI Memory feature to incrase the customer experience over the call**
+- **Utilize the AI Memory feature to increase the customer experience over the call**
 
 ### Supervisor Support
 
@@ -63,7 +61,7 @@ In this lab, participants will: <br><br>
 **• Uncover Trends & Opportunities:** Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. <br><br>
 **• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous AI Agent to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
 **• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. <br><br>
-**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation and AI Memeory to enhance agent productivity and service quality.<br><br>
+**• Enhance In-Interaction Insights:** Experience AI-driven call summarization and AI Memory to enhance agent productivity and service quality.<br><br>
 **• Evaluate Agent's performance:** Learn to leverage AI QM to evaluate the agent's quality of provided service based on the preconfigured template.
 
 ## Disclaimer
