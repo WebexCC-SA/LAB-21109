@@ -19,7 +19,6 @@ Your mission is to:
 
 1. Review the Generative Summary AI Assistant feature configurations
 2. Test a smooth handoff to live human agent from AI Agent.
-3. Test Wrap-up Summary after the agent completed the call.
 
 ## Configuration overview
 
@@ -27,18 +26,18 @@ Your mission is to:
 
 This task is read only. Read until Task 2.
 
-1. You should have the AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
+1. (<span style="color: red;"><strong>Read Only</strong></span>) You should have the AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
 
-2. Once you have provisioned it, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Collaboration Control Hub. From there, the customer can enable/disable the **Virtual Agent Transfer Summary** feature from the Collaboration Control Hub.
+2. (<span style="color: red;"><strong>Read Only</strong></span>) Once you have provisioned it, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Collaboration Control Hub. From there, the customer can enable/disable the **Virtual Agent Transfer Summary** feature from the Collaboration Control Hub.
    ![Profiles](../graphics/Lab1_AI_Agent/3.1.png)
 
-3. The Agent needs to be logged in to the Team that is configured with Desktop Layout that has "ai-assistant" features configured
+3. (<span style="color: red;"><strong>Read Only</strong></span>) The Agent needs to be logged in to the Team that is configured with Desktop Layout that has "ai-assistant" features configured
    (**Note: Default desktop layout already includes the AI Agent Assistance widget**). <br/>
    <br/>Agents Team:
    ![Profiles](../graphics/Lab1_AI_Agent/3.41.png)
    <br/><br/>Desktop Layout file: Make sure **ai-assistant** is configured under the **advancedHeader** in case you are using a custom Layout file.
    ![Profiles](../graphics/Lab1_AI_Agent/3.5.png)
-   <br/>The latest Default Desktop Layout is already configured for the AI Assistant feature. But if you use a custom Desktop layout in your tenant, you need to consider that this setting needs to be added.
+   <br/>(<span style="color: red;"><strong>Read Only</strong></span>) The latest Default Desktop Layout is already configured for the AI Assistant feature. But if you use a custom Desktop layout in your tenant, you need to consider that this setting needs to be added.
 
 ### Task 2. Test Agent Handoff Configurations
 
@@ -64,16 +63,5 @@ This task is read only. Read until Task 2.
 
 8. The human agent also receives the AI Agent Summary and, after the call, the Wrap Up Summary as part of the AI Assistant portfolio.
    ![profiles](../graphics/Lab1_AI_Agent/5-Agent_1.gif)
-
-### Task 3. Test Wrap-up Summary Feature
-
-1. Make sure the agent is in the **Available** status.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.6_.png)
-
-2. Place a call to your channel. Answer the call by the agent and put the agent on mute if you are using a Webex phone, as we use one microphone for both the caller and agent. As the customer, say that you ordered flowers but didn't receive a delivery.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.49.png)
-
-3. Disconnect the call. You should see the wrap-up code suggestion and the wrap-up summary of the call.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.50.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

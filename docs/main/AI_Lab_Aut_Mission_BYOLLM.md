@@ -3,7 +3,7 @@
 icon: material/medal
 ---
 
-# Mission 8: Bring Your Own LLM (<span class="optional-yellow"><strong>Optional</strong></span>)
+# Mission 8: Bring Your Own LLM
 
 **<details><summary>What is Bring Your Own LLM? <span style="color: orange;"></span></summary>**
 
@@ -13,7 +13,7 @@ Bring Your Own LLM (BYO LLM) allows an organization to bring their own LLM to th
 
 ## Feature Description
 
-This optional mission uses **OpenRouter** as the API gateway to the AI models. The OpenRouter workspace is **preconfigured** for **GPT6-Luna** on the instructor's personal account, so that tenant cannot be shared. Task 1 is **read only** and shows exactly what was done to get the API details for the Webex integration.
+This mission uses **OpenRouter** as the API gateway to the AI models. The OpenRouter workspace is **preconfigured** for **GPT6-Luna** on the instructor's personal account, so that tenant cannot be shared. Task 1 is **read only** and shows exactly what was done to get the API details for the Webex integration.
 
 Complete the earlier Autonomous AI Agent missions first, then work through these tasks in order:
 
@@ -40,27 +40,27 @@ This lab uses **OpenRouter** as the API gateway to the AI models. The gateway is
 
 For this lab, the instructor uses a **personal OpenRouter account** with **personal billing details**, so access to this specific OpenRouter tenant cannot be shared. In this task, you will see exactly what was done to get the API details for the Webex integration. After the lab, you can easily create your **own OpenRouter account** and API key for the same integration.
 
-1. Open [OpenRouter](https://openrouter.ai/){:target="_blank"}. Log in, or create an account to log in.
+1. (<span style="color: red;"><strong>Read Only</strong></span>) Open [OpenRouter](https://openrouter.ai/){:target="_blank"}. Log in, or create an account to log in.
 
-2. You will be prompted to add billing details. Add your billing card and buy some credits.
+2. (<span style="color: red;"><strong>Read Only</strong></span>) You will be prompted to add billing details. Add your billing card and buy some credits.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_1.png)
 
-3. Click **API Key** and create a new **API key**.
+3. (<span style="color: red;"><strong>Read Only</strong></span>) Click **API Key** and create a new **API key**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_2.png)
 
-4. Fill in the required fields and click **Create**.
+4. (<span style="color: red;"><strong>Read Only</strong></span>) Fill in the required fields and click **Create**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_3.png)
 
-5. Copy the API key. You will need it for authentication with Webex.
+5. (<span style="color: red;"><strong>Read Only</strong></span>) Copy the API key. You will need it for authentication with Webex.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_4.png)
 
-6. Click **Models**. Search for the model that you want to use with your Webex AI Agent. For this lab we will be using **GPT6-Luna**, because this model is fast, capable, and inexpensive. For your own use cases, you can select faster models that will give you a better customer experience.
+6. (<span style="color: red;"><strong>Read Only</strong></span>) Click **Models**. Search for the model that you want to use with your Webex AI Agent. For this lab we will be using **GPT6-Luna**, because this model is fast, capable, and inexpensive. For your own use cases, you can select faster models that will give you a better customer experience.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_5.png)
 
-7. If you select the model and click **API > cURL**, you will see the base URL for the OpenRouter completions service. You will use this URL in the next task while creating the agentic app in the Webex Developer Portal.
+7. (<span style="color: red;"><strong>Read Only</strong></span>) If you select the model and click **API > cURL**, you will see the base URL for the OpenRouter completions service. You will use this URL in the next task while creating the agentic app in the Webex Developer Portal.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_6.png)
 
-8. In addition to the base URL for the completions service, you also need the URL suffix that is specific to this model. You can find it on the same page, right after the model name. See the screenshot. You will use this URL extension in Task 4 when you create the Custom AI Engine.
+8. (<span style="color: red;"><strong>Read Only</strong></span>) In addition to the base URL for the completions service, you also need the URL suffix that is specific to this model. You can find it on the same page, right after the model name. See the screenshot. You will use this URL extension in Task 4 when you create the Custom AI Engine.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_7.png)
 
 ### Task 2. Register the LLM as an Agentic App
@@ -126,7 +126,7 @@ Your task is to **configure authentication for the agentic app** in **Collaborat
 4. Make it **Allowed for all users**, enable **Authorize automatic server data updates**, and click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_20.png)
 
-5. Open the **Authentication** tab. Select **API key** as the authentication method and enter the API key from OpenRouter as shown in Task 1. Click **Save**.
+5. Open the **Authentication** tab. Select **API key** as the authentication method and enter the API key from OpenRouter that you have in your credentials file. Click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_21.png)
 
 ### Task 4. Create and Assign the Custom AI Engine

@@ -43,6 +43,9 @@ Go to Webex AI Agent Studio, open the Observability module, and review the dashb
 3. Review the currently available **Filters** and the **Dashboard**.
    ![Profiles](../graphics/Lab1_AI_Agent/21.2.png)
 
-4. Open the **Settings**. This is where you can control your Observability parameters.
+4. Open the **Settings**. 
    ![Profiles](../graphics/Lab1_AI_Agent/21.3.png)
+
+5. This is where you can control your Observability parameters.
+   ![Profiles](../graphics/Lab1_AI_Agent/21.4.png)
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

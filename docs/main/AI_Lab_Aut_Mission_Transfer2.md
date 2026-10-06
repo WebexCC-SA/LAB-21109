@@ -22,24 +22,7 @@ For this mission, the proctor has created a Webex AI Agent named **Flower_Wholes
 
 ## Build
 
-### Task 1. Adjust Transfer Action in AI Agent Studio portal
-
-1. Open your AI agent with name **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>** and then click on **Actions**.
-   ![Profiles](../graphics/Lab1_AI_Agent/14.1.png)
-
-2. Select **Transfer_to_different_department** action.
-   ![Profiles](../graphics/Lab1_AI_Agent/14.2.png)
-
-3. Adjust the Transfer condition by adding **<copy>or Wholesale</copy>** as the department option.
-   ![Profiles](../graphics/Lab1_AI_Agent/14.3.gif)
-
-4. Adjust entity example by adding **<copy>Wholesale</copy>**. Then click on **Save**.
-   ![Profiles](../graphics/Lab1_AI_Agent/14.4.gif)
-
-5. **Publish** the changes.
-   ![Profiles](../graphics/Lab1_AI_Agent/14.5.gif)
-
-### Task 2. Configure Voice flow to Transfer the call to **Flower_Wholesale** AI Agent
+### Task 1. Configure Voice flow to Transfer the call to **Flower_Wholesale** AI Agent
 
 1. Go to **Collaboration Control Hub** and open up your flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Click on **Edit** the flow.
    ![Profiles](../graphics/Lab1_AI_Agent/14.6.gif)
@@ -59,17 +42,17 @@ For this mission, the proctor has created a Webex AI Agent named **Flower_Wholes
 6. **Validate** and **Publish** the flow.
    ![Profiles](../graphics/Lab1_AI_Agent/14.11.gif)
 
-### Task 3. Test Webex AI Agent transfer to Webex AI Agent
+### Task 2. Test Webex AI Agent transfer to Webex AI Agent
 
 Place a call to the number associated with your Channel **<copy><w class="attendee"></w>\_2000_Channel</copy>** and ask to order several boxes of roses. **For example, ask for 2 boxes of red roses**. You will be connected to an AI agent who can assist you with ordering flowers if you need to purchase at least one box (each box contains 100 flowers). In this case, the price will be different. Below, you can find the screenshot of the knowledge base used by the Flower_Wholesale AI Agent.
 ![Profiles](../graphics/Lab1_AI_Agent/14.12.png)
 
 
-Or you can review the full configuration of the **Flower_Wholesale** AI Agent in the AI Agent Studio.
+(<span style="color: red;"><strong>Read Only</strong></span>) You can also review the full configuration of the **Flower_Wholesale** AI Agent in AI Agent Studio.
 ![Profiles](../graphics/Lab1_AI_Agent/14.14.png)
 
 
-### Task 4. Configure the context share between two AI Agents.
+### Task 3. Configure the context share between two AI Agents.
 
 For now, when the first AI agent transferred the call to the second AI agent, the context was not shared. So the wholesale AI agent would need to ask the customer questions about the context that was already shared with the first AI agent. For example, how many boxes of flowers they need. There is a feature to share the context between AI agents and you will be enabling it in this Task. 
 

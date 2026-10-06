@@ -33,7 +33,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 3. Select **Add actions** option and create a new **Transfer** action.
    ![Profiles](../graphics/Lab1_AI_Agent/11.3.gif)
 
-4. Name the action as **<copy>Transfer_to_different_department</copy>**.<br/> In the **Transfer condition** field, paste **<copy>When the customer wants to transfer the call to HR or Billing or Wholesale department use this Action</copy>**.
+4. Name the action as **<copy>Transfer_to_different_department</copy>**.<br/> In the **Transfer condition** field, paste **<copy>When the customer wants to transfer the call to HR or Billing or Wholesale department use this Action. Use the department names as the following: HR, Billing, Wholesale</copy>**.
    ![Profiles](../graphics/Lab1_AI_Agent/11.4a.png)
 
 5. Click on add **New input entity**. Configure it with the following: <br>

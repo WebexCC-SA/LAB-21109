@@ -65,13 +65,19 @@ Your mission is to:
 8. To test the results, in the **Preview** section select **Sample transcript** as **Custom**.
    ![Profiles](../graphics/Lab1_AI_Agent/20.8.png)
 
-9. Enter the sample of the conversation below and click on **Generate preview**. You will see the results including your custom section.
+9. Enter the sample of the conversation below and click on **Generate preview**. You will see the results including your custom section. Paste the text below (use the **copy** icon on the code block):
 
-    Conversation sample: **<copy>Agent: Hello, thank you for calling. How can I assist you with your order today?
-Caller: I would like to order 20 red roses for pickup. I don’t need delivery. Please send the SMS confirmation to 9327579850.
-Agent: Certainly. I have an order for 20 red roses, with pickup and no delivery. The SMS confirmation will be sent to 9327579850.
-Caller: Yes, that’s correct.
-Agent: Your order has been created successfully and will be ready for pickup. Thank you for your business.</copy>**
+    ``` text
+    Agent: Hello, thank you for calling. How can I assist you with your order today?
+
+    Caller: I would like to order 20 red roses for pickup. I don't need delivery. Please send the SMS confirmation to 9327579850.
+
+    Agent: Certainly. I have an order for 20 red roses, with pickup and no delivery. The SMS confirmation will be sent to 9327579850.
+
+    Caller: Yes, that's correct.
+
+    Agent: Your order has been created.
+    ```
    ![Profiles](../graphics/Lab1_AI_Agent/20.9.png)
 
 10. Click on **Publish**, leave a comment, and click on **Publish** again. 
@@ -90,6 +96,6 @@ Agent: Your order has been created successfully and will be ready for pickup. Th
 3. Scroll to **Generated Summaries** / **Wrap-up Summary**. Enable the Generated Summaries toggle. Select your custom template **<copy><w class="attendee"></w>\_2000_Wrapup_Template</copy>** to assign it to this queue. Then click **Save**.
    ![Profiles](../graphics/Lab1_AI_Agent/20.13.gif)
 
-4. Place a test call and connect to a human agent. Simulate the conversation that you are ordering flowers and specify if you need delivery. Review the Wrap-up summary after the call is completed.
+4. If you have issues seeing the custom wrap-up summary details, you might need to log out your agent and log back in.
    ![Profiles](../graphics/Lab1_AI_Agent/20.13.png)
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
