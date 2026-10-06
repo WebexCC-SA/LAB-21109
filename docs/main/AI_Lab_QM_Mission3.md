@@ -5,6 +5,21 @@ icon: material/medal
 
 # Mission 3: Configure Coaching Insights
 
+**<details><summary>What is Coaching Insights? <span style="color: orange;"></span></summary>**
+
+Coaching Insights helps supervisors see when agents miss performance targets so they can coach the team. You set KPI thresholds for a team, such as Average Wrap-up Duration. After calls complete, Team Performance shows which agents are outside those thresholds and which insights apply to each user.
+
+## </details>
+
+## Feature Description
+
+Use **Coaching Insights** in the Supervisor Desktop to:
+
+- Enable insights for your team.
+- Set a KPI threshold that you want to monitor.
+- Review Team Performance History after a test call.
+- Open an individual user to see the specific KPI and coaching insight.
+
 ## Mission overview
 
 Your mission is to:

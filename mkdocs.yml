@@ -124,11 +124,11 @@ nav:
           - Lab Guide:
               - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
               - "Mission 1: Configure Real-Time Assist with Knowledge Base": ./main/AI_Lab_Suggested_Responseds_Mission1.md
-          - Conclusion: ./main/AI_Lab_Suggested_Responseds_Conclusion.md
       - AI Memory:
           - Lab Guide:
               - "Lab overview": ./main/AI_Lab_AI_Memory_Overview.md
               - "Mission 1: Review AI Memory in Customer Journey": ./main/AI_Lab_AI_Memory_Mission1.md
+      - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
   - AI QM:
       - Quality Managment:
           - Lab Guide:
