@@ -13,9 +13,8 @@ Integrate the AI Agent with the Voice Flow.
 
 ### Task 1. Build WxCC voice flow with AI Agent.
 
-1. In [Collaboration Control Hub](https://admin.webex.com){:target="_blank"}, go to **Contact Center** and navigate to **Flows**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.47.gif)
-
+1. In [Collaboration Control Hub](https://admin.webex.com){:target="_blank"}, go to **Contact Center** and navigate to **Flows**. We have prebuilt some portion of the flow for this lab. You will need to find the prebuilt flow for your ID by following the steps below.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.48.ab1.png)
 2. On the next page, search for the flow that is related to your ID **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**. Open the flow by clicking on it.
    ![Profiles](../graphics/Lab1_AI_Agent/2.48.ab.png)
 
@@ -39,7 +38,7 @@ Integrate the AI Agent with the Voice Flow.
     Version Label: **Latest**<br/>
     ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
 
-9. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** to test the Autonomous AI Agent over a voice call. At this stage, the agent will not be able to complete the order because fulfillment is not configured yet. In the next mission, you will configure fulfillment to send an API call to a third-party application to create the order.
+9. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** to test the Autonomous AI Agent over a voice call and make sure the agent can answer questions based on the knowledge base. At this stage, the agent will not be able to complete the order because fulfillment is not configured yet. In the next mission, you will configure fulfillment to send an API call to a third-party application to create the order.
    ![Profiles](../graphics/Lab1_AI_Agent/2.84.png)
 
 

@@ -11,7 +11,7 @@ The all-new Topic Analytics empowers you to discover emerging topics as customer
 ### Task 1. Review the UI for the Real-Time Topic Dashboard for Administrators.
 
 1. Login to [Agent Desktop](https://beta-desktop.wxcc-us1.cisco.com/){:target="_blank"} using your admin credentials.
-
+   ![Profiles](../graphics/Lab1_AI_Agent/1.40a.gif)
 2. The administrator can review the **Topic Dashboard** to understand why customers are calling the Contact Center and see the areas that can be automated or improved. For example, on the screenshot below you can see some customers are calling to order flowers. This is a potential area that you can automate by using an AI Agent.
    ![Profiles](../graphics/Lab1_AI_Agent/1.40.png)
 

@@ -33,15 +33,16 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 3. Select **Add actions** option and create a new **Transfer** action.
    ![Profiles](../graphics/Lab1_AI_Agent/11.3.gif)
 
-4. Name the action as **<copy>Transfer_to_different_department</copy>**.<br/> In the **Transfer condition** field, paste **<copy>When the customer wants to transfer the call to HR or Billing department use this Action</copy>**.
+4. Name the action as **<copy>Transfer_to_different_department</copy>**.<br/> In the **Transfer condition** field, paste **<copy>When the customer wants to transfer the call to HR or Billing or Wholesale department use this Action</copy>**.
    ![Profiles](../graphics/Lab1_AI_Agent/11.4a.png)
 
 5. Click on add **New input entity**. Configure it with the following: <br>
    > Entity name: **<copy>department</copy>**<br>
    > Entity type: **String**<br>
-   > Entity description: **<copy>Collect if the customer wants to transfer the call to HR or Billing Department</copy>**<br>
+   > Entity description: **<copy>Collect if the customer wants to transfer the call to HR or Billing or Wholesale Department</copy>**<br>
    > Entity example: **<copy>HR</copy>**<br>
    > Entity example: **<copy>Billing</copy>**<br>
+   > Entity example: **<copy>Wholesale</copy>**<br>
    ![Profiles](../graphics/Lab1_AI_Agent/11.5.png)
 
 6. Finally, click on **Add** to add the new action.
@@ -62,7 +63,7 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
    In the next steps, we will add the **Set Variable** block to see the MetaData in JSON format, and then you will add the **Parse** and **Case** nodes to handle the logic and distribute the call to the appropriate queue.
    ![Profiles](../graphics/Lab1_AI_Agent/11.11.png)
 
-4. Create a new flow variable with name **<copy>MetaData_AI</copy>**. Select type as **string** and then click **Save**.
+4. Create a new flow variable with name **<copy>MetaData_AI</copy>**. Select type as **string** and then click **Create**.
    ![Profiles](../graphics/Lab1_AI_Agent/11.9.gif)
 
 5. Add **Set Variable** node to the flow and connect **Escalated** output of the **VirtualAgentV2** block to the **Set Variable** node.
