@@ -46,10 +46,8 @@ Create an AI Assistant Skill with a Knowledge Base. The Knowledge Base will cont
 1. Open your voice flow and click on **Edit**.
    ![Profiles](../graphics/Lab1_AI_Agent/9.12a.gif)
 
-2. Click on **Event Flows**.
-   ![Profiles](../graphics/Lab1_AI_Agent/9.12.gif)
-
-3. You will see that **Start Media Stream** is already preconfigured for your flow. This configuration is required for many AI Assistant features, including Real-Time Assist. 
+2. Click on **Event Flows** and review **Start Media Stream** configuration in the flow.
+   ![Profiles](../graphics/Lab1_AI_Agent/9.12.1.png)
 
 ### Task 4. Test Real-Time Assist Feature
 

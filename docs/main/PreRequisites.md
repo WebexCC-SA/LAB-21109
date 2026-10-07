@@ -18,7 +18,7 @@ icon: material/bullseye-arrow
 
 You can use your cellphone to place inbound calls to the Contact Center for this lab. 
 
-Or you can follow the step below to login to Webex App and place calls from the Webex App. 
+If you don't have a cellphone with a US carrier, follow the steps below to log in to the Webex App and place calls from the Webex App. 
 
 #### Login to Webex App.
 
@@ -32,5 +32,5 @@ Or you can follow the step below to login to Webex App and place calls from the 
    ![Profiles](../graphics/Lab1_AI_Agent/18.4.gif)
 
 #### Calling to Contact Center
-Place test call to the test number +15206603108 to confirm that you Webex Phone is configured to place calls. You will hear TTS response from the test flow. If you are planning to use your cellphone for testing you can also try to call the number. 
+Place a test call to the test number **<copy>+15206603129</copy>** to confirm that your Webex Phone is configured to place calls. You will hear TTS response from the test flow. If you are planning to use your cellphone for testing you can also try to call the number. 
    ![Profiles](../graphics/Lab1_AI_Agent/18.5.gif)
