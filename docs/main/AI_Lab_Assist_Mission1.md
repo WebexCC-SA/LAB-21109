@@ -52,16 +52,19 @@ This task is read only. Read until Task 2.
 4. (<span style="color: red;"><strong>Read Only</strong></span>) By default, the **Conversation Transcripts** setting is enabled in the VirtualAgentV2 block.
    ![Profiles](../graphics/Lab1_AI_Agent/2.54.png)
 
-5. With this setting enabled, the live agent can see the conversation details between the caller and the AI agent. Please check if you can view the IVR transcripts during your test calls with Agent Handoff.
+5. Enable the voice recording in the voice flow for your AI Agent.
+   ![Profiles](../graphics/Lab1_AI_Agent/2026-10-07_16h55_03.png)
+
+6. With this setting enabled, the live agent can see the conversation details between the caller and the AI agent. Please check if you can view the IVR transcripts during your test calls with Agent Handoff.
    ![Profiles](../graphics/Lab1_AI_Agent/2.55.png)
 
-6. Answer the call on your Agent Desktop. You will see a window with the message **"AI agent transfer summary is ready"** pop up. You can click on **View Summary** from the window.
+7. Answer the call on your Agent Desktop. You will see a window with the message **"AI agent transfer summary is ready"** pop up. You can click on **View Summary** from the window.
    ![Profiles](../graphics/Lab1_AI_Agent/3.8.png)
 
-7. The **AI agent transfer summary is ready** notification will disappear after a few seconds. However, you can always reopen it by clicking on the AI Assistant widget.
+8. The **AI agent transfer summary is ready** notification will disappear after a few seconds. However, you can always reopen it by clicking on the AI Assistant widget.
    ![Profiles](../graphics/Lab1_AI_Agent/3.9.png)
 
-8. The human agent also receives the AI Agent Summary and, after the call, the Wrap Up Summary as part of the AI Assistant portfolio.
+9. The human agent also receives the AI Agent Summary and, after the call, the Wrap Up Summary as part of the AI Assistant portfolio.
    ![profiles](../graphics/Lab1_AI_Agent/5-Agent_1.gif)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
