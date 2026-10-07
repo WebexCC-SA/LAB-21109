@@ -36,25 +36,28 @@ Your mission is to:
 
 ### Task 1. Configure Summary Templates in the AI Studio
 
-1. In [Collaboration Control Hub](https://admin.webex.com){:target="_blank"} under **Contact Center**, go to **Overview** and open **Webex AI Agent**.
+1. In your voice flow, enable the **voice recording** for your AI agent.
+   ![Profiles](../graphics/Lab1_AI_Agent/2026-10-07_16h37_33.png)
+
+2. In [Collaboration Control Hub](https://admin.webex.com){:target="_blank"} under **Contact Center**, go to **Overview** and open **Webex AI Agent**.
    ![Profiles](../graphics/Lab1_AI_Agent/20.1.png)
 
-2. From the left-hand side menu, select **Summary Templates** and click **Create**.
+3. From the left-hand side menu, select **Summary Templates** and click **Create**.
    ![Profiles](../graphics/Lab1_AI_Agent/20.2.png)
 
-3. Click on **Create Template**.
+4. Click on **Create Template**.
    ![Profiles](../graphics/Lab1_AI_Agent/20.3.png)
 
-4. Configure the template with Name: **<copy><w class="attendee"></w>\_2000_Wrapup_Template</copy>**
+5. Configure the template with Name: **<copy><w class="attendee"></w>\_2000_Wrapup_Template</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/20.4.png)
 
-5. (<span style="color: red;"><strong>Read Only</strong></span>) By default, you will see the sections that are currently used to generate the Wrap-up summary. You can enable or disable them based on your needs.
+6. (<span style="color: red;"><strong>Read Only</strong></span>) By default, you will see the sections that are currently used to generate the Wrap-up summary. You can enable or disable them based on your needs.
    ![Profiles](../graphics/Lab1_AI_Agent/20.5.png)
 
-6. Click on **Add section** in order to add a custom section for what you want to see in the Wrap-up summary.
+7. Click on **Add section** in order to add a custom section for what you want to see in the Wrap-up summary.
    ![Profiles](../graphics/Lab1_AI_Agent/20.6.png)
 
-7. Configure the custom section with the following:
+8. Configure the custom section with the following:
 
     - Title: **<copy>Delivery details</copy>**
     - Instructions: **<copy>Check whether the customer requested delivery or pickup. If the customer requested delivery, include the delivery details in the order summary. If the order is for pickup, clearly state that the order is for pickup.</copy>**
@@ -62,10 +65,10 @@ Your mission is to:
     - Click on **Create**
        ![Profiles](../graphics/Lab1_AI_Agent/20.7.png)
 
-8. To test the results, in the **Preview** section select **Sample transcript** as **Custom**.
+9. To test the results, in the **Preview** section select **Sample transcript** as **Custom**.
    ![Profiles](../graphics/Lab1_AI_Agent/20.8.png)
 
-9. Enter the sample of the conversation below and click on **Generate preview**. You will see the results including your custom section. Paste the text below (use the **copy** icon on the code block):
+10. Enter the sample of the conversation below and click on **Generate preview**. You will see the results including your custom section. Paste the text below (use the **copy** icon on the code block):
 
     ``` text
     Agent: Hello, thank you for calling. How can I assist you with your order today?
@@ -80,7 +83,7 @@ Your mission is to:
     ```
    ![Profiles](../graphics/Lab1_AI_Agent/20.9.png)
 
-10. Click on **Publish**, leave a comment, and click on **Publish** again. 
+11. Click on **Publish**, leave a comment, and click on **Publish** again. 
    ![Profiles](../graphics/Lab1_AI_Agent/20.10.png)
 
 
